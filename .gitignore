@@ -1,0 +1,8 @@
+docker/config/mariadb/
+docker/config/phpmyadmin/
+docker/config/mariadb-dev/
+docker/config/phpmyadmin-dev/
+
+.DS_Store
+node_modules
+vendor

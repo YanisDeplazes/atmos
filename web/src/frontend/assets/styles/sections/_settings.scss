@@ -1,0 +1,30 @@
+.settings {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--penn-blue-color);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: auto;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .setting-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        &:first-child {
+            margin-top: 50px;
+        }
+
+    }
+
+    button {
+        margin-bottom: 50px;
+
+    }
+}

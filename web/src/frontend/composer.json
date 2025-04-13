@@ -1,0 +1,17 @@
+{
+  "require": {
+    "twig/twig": "^3.20"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Api\\": "./"
+    }
+  },
+  "scripts": {
+    "lint": "vendor/bin/phpcs --standard=PSR12 --ignore=vendor/ .",
+    "fix": "vendor/bin/phpcbf --standard=PSR12 --ignore=vendor/ ."
+  }
+}

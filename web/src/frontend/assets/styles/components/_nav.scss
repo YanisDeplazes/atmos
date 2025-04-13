@@ -1,0 +1,39 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  &.buttons,
+  &.carousel-dots {
+    ul li {
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+  }
+
+  &.buttons ul li {
+    padding: 5px 10px;
+    background-color: var(--azure-color);
+    border-radius: 50px;
+    color: var(--penn-blue-color);
+
+    &:hover {
+      background-color: var(--aqua-color);
+    }
+  }
+
+  &.carousel-dots ul li {
+    width: 10px;
+    height: 10px;
+    background-color: var(--azure-color);
+    border-radius: 50%;
+    text-indent: -9999px;
+
+    &.active {
+      background-color: var(--aqua-color);
+    }
+  }
+}

@@ -1,0 +1,49 @@
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  overflow: hidden;
+  margin: unset;
+  justify-content: space-between;
+
+  /* Standard */
+
+  /* Safari */
+
+  /* Firefox */
+  user-select: none;
+
+  /* Internet Explorer/Edge */
+
+  header,
+  main,
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: var(--azure-color);
+  }
+
+  main {
+    flex: 1;
+  }
+
+  header,
+  footer {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  & .hidden {
+    display: none;
+  }
+
+  header {
+    position: relative;
+    z-index: 9
+  }
+}

@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap";
+
+html {
+  font-family: Syne, sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Outfit, sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  letter-spacing: -0.0025em;
+}
+
+a {
+  color: inherit;
+  text-decoration: unset;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+h1 {
+  font-size: 1.313rem; // 21px
+}
+
+h2 {
+  font-size: 4.2rem; // 68px
+}
+
+code {
+  font-size: 0.75rem; // 12px
+}

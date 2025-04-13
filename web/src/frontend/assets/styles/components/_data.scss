@@ -1,0 +1,46 @@
+.data {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    max-width: 100vw;
+    height: 50%;
+    z-index: 0;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        align-items: center;
+
+        li {
+            position: relative;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+            .parameter {
+                font-size: 12px;
+            }
+
+            .value {
+                font-family: Outfit, sans-serif;
+                font-size: 21px;
+            }
+
+            &::after,
+            &:nth-child(even)::before {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                background-color: var(--azure-color);
+            }
+
+            &:nth-child(even)::after {
+                display: none;
+            }
+        }
+    }
+}

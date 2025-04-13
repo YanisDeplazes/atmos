@@ -1,0 +1,51 @@
+0001.mp3 - rainstorm.mp3
+Desc: Heavy rain ambience with thunder and wet textures
+YT: https://www.youtube.com/watch?v=J6G0EuPAoKQ
+
+0002.mp3 - blizzard_wind.mp3
+Desc: Icy snowstorm with howling wind
+YT: https://www.youtube.com/watch?v=0klq20uJxAU
+
+0003.mp3 - cold_winter_day.mp3
+Desc: Calm winter daytime with soft wind and subtle ambient textures
+YT: https://www.youtube.com/watch?v=b23ejS0TMr8
+
+0004.mp3 - cold_sunset_wind.mp3
+Desc: Cold evening ambience with dry wind and low light atmosphere
+YT: https://www.youtube.com/watch?v=Bsn0hX1Oxms
+
+0005.mp3 - mild_wind_stormy.mp3
+Desc: Mild temperature but windy with storm pressure buildup
+YT: https://www.youtube.com/watch?v=490z2QH6v5o
+
+0006.mp3 - spring_morning_birds.mp3
+Desc: Gentle morning ambience with chirping spring birds
+YT: https://www.youtube.com/watch?v=xYV5Tx9-rY0
+
+0007.mp3 - mild_day_breeze.mp3
+Desc: Neutral daytime ambience with tree movement and soft wind
+YT: https://www.youtube.com/watch?v=Z60FS9Czvzg
+
+0008.mp3 - spring_evening_chill.mp3
+Desc: Peaceful spring evening with soft fading light and nature
+YT: https://www.youtube.com/watch?v=bDbOHQDzjIE
+
+0009.mp3 - calm_night_crickets.mp3
+Desc: Quiet night with ambient crickets and distant textures
+YT: https://www.youtube.com/watch?v=n7Sxa9bkHWw
+
+0010.mp3 - humid_storm_build.mp3
+Desc: Humid warm storm approaching with air pressure tension
+YT: https://www.youtube.com/watch?v=xJXPT9BUIJ0
+
+0011.mp3 - warm_morning_birds.mp3
+Desc: Warm morning ambience with gentle light and birdsong
+YT: https://www.youtube.com/watch?v=SOJr7GKgLwk
+
+0012.mp3 - summer_cicadas.mp3
+Desc: Intense hot summer day with buzzing cicadas
+YT: https://www.youtube.com/watch?v=z3sFgl_kw0o
+
+0013.mp3 - summer_night_crickets.mp3
+Desc: Warm summer night with insects and ambient textures
+YT: https://www.youtube.com/watch?v=Am7YlqM6WCc

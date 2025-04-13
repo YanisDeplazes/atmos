@@ -1,0 +1,1109 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../code_frontend/">
+      
+      
+        <link rel="next" href="../technical_documentation/">
+      
+      <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Database - IoT - Students' Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<link rel="stylesheet" href="../../assets/stylesheets/mdocotion.css" />
+	<script src="../../assets/javascripts/mdocotion.js"></script>
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#database" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+     
+	
+<header class="md-header" data-md-component="header">
+
+	<div class="header-inner">
+		<div class="header-info-bar">
+			<label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg> </label>
+
+			<ul class="mdocotion-breadcrumbs">
+			</ul>
+		</div>
+
+		<ul class="mdocotion-header-nav">
+			<li>
+				
+				<label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> </label>
+				<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+			</li>
+		</ul>
+	</div>
+</header> 
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+	
+		
+		
+			<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"  style="background: #f1f5f9;">
+		
+	
+		<div class="md-sidebar__scrollwrap">
+			<div class="md-sidebar__inner">
+			  
+<div class="mdocotion-nav-header">
+	<div class="mdocotion-nav-logo">
+		<a href="../.." >
+			
+  <img src="../../assets/logo.svg" alt="logo">
+
+		</a>
+		</div>
+	
+		IoT - Students' Portfolio
+	
+</div>
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+	<ul class="md-nav__list" data-md-scrollfix>
+		   
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        🏚️ Home
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system_architecture" class="md-nav__link">
+        📦 System Architecture
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal" class="md-nav__link">
+        ♟️ Learning journal
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planning" class="md-nav__link">
+        📅 Planning
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🧰 Embedded
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🧰 Embedded</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/requirements" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🌐 Web
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🌐 Web</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_reference" class="md-nav__link">
+        API reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                👩‍🎨 User Experience Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">👩‍🎨 User Experience Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                Concept & Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">Concept & Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/concept" class="md-nav__link">
+        Concept
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/design" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/create_test" class="md-nav__link">
+        Create & Test
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/conclude_reflect" class="md-nav__link">
+        Conclude & Reflect
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🔎 Research
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🔎 Research</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research" class="md-nav__link">
+        Research to Market
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-implementation" class="md-nav__link">
+        Research to Market: Implementation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+ 
+	</ul>
+</nav>
+			</div>
+		</div>
+		</div>
+	
+
+          
+
+	<div class="md-content" data-md-component="content">
+
+	<article class="mdocotion-content md-content__inner md-typeset">
+		<div class="mdocotion-content-scroller">
+			<main class="mdocotion-content-view">
+				<div class="mdocotion-content-block">
+					<div class="mdocotion-content-block-inner"> 
+
+
+<div><h1 id="database">Database</h1>
+<h2 id="introduction">Introduction</h2>
+<p>The database is designed to store the sensor data from the embedded devices efficiently. With focus on <strong>scalability and integrity</strong>, making it modular.</p>
+<h2 id="technology">Technology</h2>
+<ul>
+<li><strong>MariaDB</strong> as the relational database.</li>
+<li><strong>phpMyAdmin</strong> for database management.</li>
+<li><strong>Draw.io</strong> for ERD diagram concept.</li>
+<li><strong>MySQL Workbench</strong> for designing the database schema.</li>
+</ul>
+<p>All communication with the database is handled through the <strong><a href="../api_reference/">API</a></strong>.</p>
+<h3 id="considerations">Considerations</h3>
+<p>The technologies were chosen based on the recommendations of the IOT's teachers. While NoSQL was considered, SQL proved to be more efficient for the project's structured approach. Additionally, these technologies are widely used in the industry, ensuring compatibility and best practices.</p>
+<h2 id="database-design">Database Design</h2>
+<h3 id="design-choices-candidate-keys">Design Choices &amp; Candidate Keys</h3>
+<p>The following tables describe <strong>each entity in the database</strong>, the <strong>chosen candidate keys</strong>, and the <strong>reasoning behind the design decisions</strong>.</p>
+<h4 id="device-table">Device Table</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Constraints</th>
+<th>Candidate Key</th>
+<th>Use Case &amp; Design Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>INT AUTO_INCREMENT</code></td>
+<td>PRIMARY KEY</td>
+<td>Yes</td>
+<td>Ensures each device has a unique identifier.</td>
+</tr>
+<tr>
+<td><code>key</code></td>
+<td><code>VARCHAR(50)</code></td>
+<td>UNIQUE NOT NULL</td>
+<td>Yes</td>
+<td>Allows human-friendly lookup (e.g., <code>sensor_hub_1</code>).</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><code>VARCHAR(100)</code></td>
+<td>UNIQUE NOT NULL</td>
+<td>No</td>
+<td>Descriptive name for UI, but not used as a key.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="reading-table">Reading Table</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Constraints</th>
+<th>Candidate Key</th>
+<th>Use Case &amp; Design Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>INT AUTO_INCREMENT</code></td>
+<td>PRIMARY KEY</td>
+<td>Yes</td>
+<td>Ensures each reading has a unique identifier.</td>
+</tr>
+<tr>
+<td><code>device_id</code></td>
+<td><code>INT</code></td>
+<td>FOREIGN KEY</td>
+<td>No</td>
+<td>Links readings to a specific device.</td>
+</tr>
+<tr>
+<td><code>timestamp</code></td>
+<td><code>TIMESTAMP</code></td>
+<td>DEFAULT <code>CURRENT_TIMESTAMP</code></td>
+<td>No</td>
+<td>Automatically records when a reading is taken.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sensor-table">Sensor Table</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Constraints</th>
+<th>Candidate Key</th>
+<th>Use Case &amp; Design Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>INT AUTO_INCREMENT</code></td>
+<td>PRIMARY KEY</td>
+<td>Yes</td>
+<td>Ensures uniqueness for each sensor type.</td>
+</tr>
+<tr>
+<td><code>key</code></td>
+<td><code>VARCHAR(50)</code></td>
+<td>UNIQUE NOT NULL</td>
+<td>Yes</td>
+<td>Used for lookups, prevents duplicate sensor types.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><code>VARCHAR(100)</code></td>
+<td>NOT NULL</td>
+<td>No</td>
+<td>Descriptive name, but not unique enough for indexing.</td>
+</tr>
+<tr>
+<td><code>unit</code></td>
+<td><code>VARCHAR(10)</code></td>
+<td>NOT NULL</td>
+<td>No</td>
+<td>Stores unit of measurement (e.g., <code>°C</code>, <code>hPa</code>).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sensordata-table">SensorData Table</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Constraints</th>
+<th>Candidate Key</th>
+<th>Use Case &amp; Design Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>INT AUTO_INCREMENT</code></td>
+<td>PRIMARY KEY</td>
+<td>Yes</td>
+<td>Ensures each sensor reading is uniquely stored.</td>
+</tr>
+<tr>
+<td><code>reading_id</code></td>
+<td><code>INT</code></td>
+<td>FOREIGN KEY</td>
+<td>No</td>
+<td>Links to the <code>Reading</code> table.</td>
+</tr>
+<tr>
+<td><code>sensor_id</code></td>
+<td><code>INT</code></td>
+<td>FOREIGN KEY</td>
+<td>No</td>
+<td>Links to the <code>Sensor</code> table.</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td><code>DECIMAL(7,2)</code></td>
+<td>NOT NULL</td>
+<td>No</td>
+<td>Stores the sensor measurement with precision.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="setting-table">Setting Table</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Constraints</th>
+<th>Candidate Key</th>
+<th>Use Case &amp; Design Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>INT AUTO_INCREMENT</code></td>
+<td>PRIMARY KEY</td>
+<td>Yes</td>
+<td>Uniquely identifies each setting.</td>
+</tr>
+<tr>
+<td><code>key</code></td>
+<td><code>VARCHAR(50)</code></td>
+<td>UNIQUE NOT NULL</td>
+<td>Yes</td>
+<td>Used for lookup in the system.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><code>VARCHAR(100)</code></td>
+<td>NOT NULL</td>
+<td>No</td>
+<td>Descriptive setting name.</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td><code>DECIMAL(10,4)</code></td>
+<td>NULL</td>
+<td>No</td>
+<td>Stores user-defined value (overrides default).</td>
+</tr>
+<tr>
+<td><code>default_value</code></td>
+<td><code>DECIMAL(10,4)</code></td>
+<td>NOT NULL</td>
+<td>No</td>
+<td>Stores the system's fallback setting.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="erd-schema">ERD Schema</h3>
+<p>The diagram below represents the <strong>Entity-Relationship Diagram (ERD)</strong> for the database, illustrating how the tables relate to each other.</p>
+<p><img alt="Draw.io: ERD Diagram" src="../../assets/web/diagram.png"></p>
+<hr>
+<h3 id="database-schema">Database Schema</h3>
+<p>The following SQL script defines the <strong>Schema</strong> for the database.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1">-- Create the Database</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">DATABASE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">atmos</span><span class="o">`</span><span class="p">;</span>
+<span class="n">USE</span><span class="w"> </span><span class="o">`</span><span class="n">atmos</span><span class="o">`</span><span class="p">;</span>
+
+<span class="c1">-- Create Device Table</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">Device</span><span class="o">`</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="n">AUTO_INCREMENT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="w"> </span><span class="k">UNIQUE</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">name</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="k">UNIQUE</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span>
+<span class="p">);</span>
+
+<span class="c1">-- Create Reading Table</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">Reading</span><span class="o">`</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="n">AUTO_INCREMENT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">device_id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="k">timestamp</span><span class="o">`</span><span class="w"> </span><span class="k">TIMESTAMP</span><span class="w"> </span><span class="k">DEFAULT</span><span class="w"> </span><span class="k">CURRENT_TIMESTAMP</span><span class="p">,</span>
+<span class="w">    </span><span class="k">FOREIGN</span><span class="w"> </span><span class="k">KEY</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">device_id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">REFERENCES</span><span class="w"> </span><span class="o">`</span><span class="n">Device</span><span class="o">`</span><span class="p">(</span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="k">DELETE</span><span class="w"> </span><span class="k">CASCADE</span>
+<span class="p">);</span>
+
+<span class="c1">-- Create Sensor Table</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">Sensor</span><span class="o">`</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="n">AUTO_INCREMENT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="w"> </span><span class="k">UNIQUE</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">name</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">unit</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span>
+<span class="p">);</span>
+
+<span class="c1">-- Create Sensor Data Table</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">SensorData</span><span class="o">`</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="n">AUTO_INCREMENT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">reading_id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">sensor_id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">value</span><span class="o">`</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="k">FOREIGN</span><span class="w"> </span><span class="k">KEY</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">reading_id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">REFERENCES</span><span class="w"> </span><span class="o">`</span><span class="n">Reading</span><span class="o">`</span><span class="p">(</span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="k">DELETE</span><span class="w"> </span><span class="k">CASCADE</span><span class="p">,</span>
+<span class="w">    </span><span class="k">FOREIGN</span><span class="w"> </span><span class="k">KEY</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">sensor_id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">REFERENCES</span><span class="w"> </span><span class="o">`</span><span class="n">Sensor</span><span class="o">`</span><span class="p">(</span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="k">DELETE</span><span class="w"> </span><span class="k">CASCADE</span>
+<span class="p">);</span>
+
+<span class="c1">-- Create Setting Table</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">Setting</span><span class="o">`</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="n">AUTO_INCREMENT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="w"> </span><span class="k">UNIQUE</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">name</span><span class="o">`</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">value</span><span class="o">`</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">default_value</span><span class="o">`</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span>
+<span class="p">);</span>
+
+<span class="c1">-- Indexes for performance</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="o">`</span><span class="n">idx_sensor_key</span><span class="o">`</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="o">`</span><span class="n">Sensor</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="p">);</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="o">`</span><span class="n">idx_setting_key</span><span class="o">`</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="o">`</span><span class="n">Setting</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="p">);</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="o">`</span><span class="n">idx_device_timestamp</span><span class="o">`</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="o">`</span><span class="n">Reading</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">device_id</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="k">timestamp</span><span class="o">`</span><span class="p">);</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="o">`</span><span class="n">idx_sensor_data_reading</span><span class="o">`</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="o">`</span><span class="n">SensorData</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">reading_id</span><span class="o">`</span><span class="p">);</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="o">`</span><span class="n">idx_sensor_data_sensor</span><span class="o">`</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="o">`</span><span class="n">SensorData</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="n">sensor_id</span><span class="o">`</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="data-inserts">Data Inserts</h2>
+<p>This section provides predefined data inserts for <strong>sensors and system settings</strong>, ensuring the project is ready.</p>
+<h3 id="add-arduino-sensors-to-the-sensor-table">Add Arduino Sensors to the Sensor Table</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="o">`</span><span class="n">Sensor</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="n">name</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="n">unit</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">VALUES</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'dht11_temperature'</span><span class="p">,</span><span class="w"> </span><span class="s1">'DHT11 Temperature Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'°C'</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'dht11_humidity'</span><span class="p">,</span><span class="w"> </span><span class="s1">'DHT11 Humidity Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'%'</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'bh1750_lux'</span><span class="p">,</span><span class="w"> </span><span class="s1">'BH1750 Light Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'lux'</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'analog_water'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Analog Water Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'level'</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'bmp180_temperature'</span><span class="p">,</span><span class="w"> </span><span class="s1">'BMP180 Temperature Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'°C'</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'bmp180_pressure'</span><span class="p">,</span><span class="w"> </span><span class="s1">'BMP180 Pressure Sensor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'hPa'</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="add-arduino-sensors-to-the-sensor-table_1">Add Arduino Sensors to the Sensor Table</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="o">`</span><span class="n">Setting</span><span class="o">`</span><span class="w"> </span><span class="p">(</span><span class="o">`</span><span class="k">key</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="n">name</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="n">value</span><span class="o">`</span><span class="p">,</span><span class="w"> </span><span class="o">`</span><span class="n">default_value</span><span class="o">`</span><span class="p">)</span><span class="w"> </span><span class="k">VALUES</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'pressure_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Atmospheric Pressure'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">900</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'pressure_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Atmospheric Pressure'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1080</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'wind_speed_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Wind Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'wind_speed_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Wind Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'temperature_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Temperature'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">10</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'temperature_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Temperature'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'lux_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Light Intensity (Lux)'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'lux_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Light Intensity (Lux)'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1000</span><span class="p">),</span>
+
+<span class="w">    </span><span class="p">(</span><span class="s1">'blob_intensity_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Blob Intensity'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span><span class="mi">05</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'blob_intensity_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Blob Intensity'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'blob_speed_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Blob Movement Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span><span class="mi">01</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'blob_speed_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Blob Movement Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span><span class="mi">5</span><span class="p">),</span>
+
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_noise_scale_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Background Noise Scale'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_noise_scale_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Background Noise Scale'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_height_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Background Height'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span><span class="mi">5</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_height_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Background Height'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">.</span><span class="mi">5</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_speed_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Background Movement Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_speed_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Background Movement Speed'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">60</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_brightness_min'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Minimum Background Brightness'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span><span class="mi">1</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'background_brightness_max'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Maximum Background Brightness'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">),</span>
+
+<span class="w">    </span><span class="p">(</span><span class="s1">'color_temperature_threshold'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Temperature Threshold for Color Changes'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">),</span>
+<span class="w">    </span><span class="p">(</span><span class="s1">'color_humidity_brightness_factor'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Impact of Humidity on Color Brightness'</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="views">Views</h2>
+<p>Views allow for efficient querying and pre-processing of sensor data, providing structured results without complex SQL joins in API queries.</p>
+<h3 id="latest-sensor-readings-per-device">Latest Sensor Readings Per Device</h3>
+<p>Fetches the most recent sensor readings per device, ensuring that each device only appears once with its latest values.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">LatestDeviceReadings</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">CREATE</span><span class="w"> </span><span class="k">VIEW</span><span class="w"> </span><span class="n">LatestDeviceReadings</span><span class="w"> </span><span class="k">AS</span>
+<span class="k">SELECT</span>
+<span class="w">    </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">device_id</span><span class="p">,</span>
+<span class="w">    </span><span class="n">d</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">device_name</span><span class="p">,</span>
+<span class="w">    </span><span class="n">s</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">sensor_name</span><span class="p">,</span>
+<span class="w">    </span><span class="n">s</span><span class="p">.</span><span class="n">unit</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">sensor_unit</span><span class="p">,</span>
+<span class="w">    </span><span class="n">sd</span><span class="p">.</span><span class="n">value</span><span class="p">,</span>
+<span class="w">    </span><span class="n">r</span><span class="p">.</span><span class="k">timestamp</span>
+<span class="k">FROM</span><span class="w"> </span><span class="n">SensorData</span><span class="w"> </span><span class="n">sd</span>
+<span class="k">JOIN</span><span class="w"> </span><span class="n">Reading</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">sd</span><span class="p">.</span><span class="n">reading_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">r</span><span class="p">.</span><span class="n">id</span>
+<span class="k">JOIN</span><span class="w"> </span><span class="n">Device</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">r</span><span class="p">.</span><span class="n">device_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span>
+<span class="k">JOIN</span><span class="w"> </span><span class="n">Sensor</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">sd</span><span class="p">.</span><span class="n">sensor_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">id</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">r</span><span class="p">.</span><span class="k">timestamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="k">MAX</span><span class="p">(</span><span class="n">r2</span><span class="p">.</span><span class="k">timestamp</span><span class="p">)</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">Reading</span><span class="w"> </span><span class="n">r2</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">r2</span><span class="p">.</span><span class="n">device_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span>
+<span class="p">)</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">r</span><span class="p">.</span><span class="k">timestamp</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="step-by-step-guide">Step-by-Step Guide</h2>
+<p>This guide shows how to <strong>create the database, add a user, and import the SQL script</strong> inside the <strong>Docker-powered phpMyAdmin environment</strong>.</p>
+<p><strong><code>YOUR_DB_NAME</code></strong> is <code>atmos</code> by default, but you can use a different name—just make sure to update the SQL script to reference the correct database.</p>
+<p>📌 The full SQL script is available on <strong><a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/docs/assets/web/db.sql?ref_type=heads">GitLab</a></strong>.</p>
+<h3 id="1-start-phpmyadmin">1. Start phpMyAdmin</h3>
+<p><img alt="Start phpMyAdmin" src="../../assets/web/phpmyadmin_1.gif"></p>
+<ol>
+<li><strong>Run Docker</strong> (if not already running).</li>
+<li>Open <strong><a href="http://localhost/phpmyadmin">localhost/phpmyadmin</a></strong>.</li>
+<li><strong>Log in</strong> with root MySQL credentials. (Can be found in the <code>.env</code> in the root of the repository)</li>
+</ol>
+<h3 id="2-create-the-database">2. Create the Database</h3>
+<p><img alt="Create the Database" src="../../assets/web/phpmyadmin_2.gif"></p>
+<ol>
+<li>Go to the <strong>Databases</strong> tab.</li>
+<li>Enter <strong><code>YOUR_DB_NAME</code></strong> as the database name.</li>
+<li>Select <strong>utf8mb4_general_ci</strong> collation.</li>
+<li>Click <strong>Create</strong>.</li>
+</ol>
+<h3 id="3-create-a-new-user">3. Create a New User</h3>
+<p><img alt="Create a New User" src="../../assets/web/phpmyadmin_3.gif"></p>
+<ol>
+<li>Navigate to <strong>User accounts</strong>.</li>
+<li>Click <strong>Add user account</strong>.</li>
+<li>Set:</li>
+<li><strong>Username</strong>: Set a username</li>
+<li><strong>Host</strong>: <code>localhost</code> or <code>%</code> depending on the network.</li>
+<li><strong>Password</strong>: Set a password</li>
+<li>Click <strong>Go</strong> to create the user.</li>
+<li>Under <strong>Database</strong>, select <strong>Grant privileges on database</strong> → Choose <strong><code>atmos</code></strong>.</li>
+<li>Under <strong>Data</strong> grant the following privileges:</li>
+<li><code>SELECT</code></li>
+<li><code>INSERT</code></li>
+<li><code>UPDATE</code></li>
+<li><code>DELETE</code></li>
+<li>Click <strong>Go</strong> to update the user.</li>
+</ol>
+<h3 id="4-import-the-sql-script">4. Import the SQL Script</h3>
+<p><img alt="Import the SQL Script" src="../../assets/web/phpmyadmin_4.gif"></p>
+<ol>
+<li>Go to <strong>Import</strong>.</li>
+<li>Click <strong>Choose File</strong> → Select the <strong>SQL script</strong>.</li>
+<li>Click <strong>Go</strong> to execute it.</li>
+</ol>
+<h3 id="5-verify-the-setup">5. Verify the Setup</h3>
+<p><img alt="Verify the Setup" src="../../assets/web/phpmyadmin_5.gif"></p>
+<ol>
+<li>Open the <strong>atmos</strong> database in phpMyAdmin.</li>
+<li>Check if all tables exist.</li>
+<li>Run <code>SELECT * FROM Setting;</code> to test the data.</li>
+</ol>
+<h3 id="file">File</h3>
+<p>📌 The full SQL script is available on <strong><a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/docs/assets/web/db.sql?ref_type=heads">GitLab</a></strong>.</p></div>
+
+
+
+
+  </div>
+				</div>
+			</main>
+		</div>
+	</article>
+</div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+     
+	
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+     
+
+  </body>
+</html>

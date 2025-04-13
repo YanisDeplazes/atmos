@@ -1,0 +1,996 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../code/">
+      
+      
+        <link rel="next" href="../code_frontend/">
+      
+      <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Code: Backend – PHP API - IoT - Students' Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<link rel="stylesheet" href="../../assets/stylesheets/mdocotion.css" />
+	<script src="../../assets/javascripts/mdocotion.js"></script>
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#code-backend-php-api" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+     
+	
+<header class="md-header" data-md-component="header">
+
+	<div class="header-inner">
+		<div class="header-info-bar">
+			<label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg> </label>
+
+			<ul class="mdocotion-breadcrumbs">
+			</ul>
+		</div>
+
+		<ul class="mdocotion-header-nav">
+			<li>
+				
+				<label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> </label>
+				<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+			</li>
+		</ul>
+	</div>
+</header> 
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+	
+		
+		
+			<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"  style="background: #f1f5f9;">
+		
+	
+		<div class="md-sidebar__scrollwrap">
+			<div class="md-sidebar__inner">
+			  
+<div class="mdocotion-nav-header">
+	<div class="mdocotion-nav-logo">
+		<a href="../.." >
+			
+  <img src="../../assets/logo.svg" alt="logo">
+
+		</a>
+		</div>
+	
+		IoT - Students' Portfolio
+	
+</div>
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+	<ul class="md-nav__list" data-md-scrollfix>
+		   
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        🏚️ Home
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system_architecture" class="md-nav__link">
+        📦 System Architecture
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal" class="md-nav__link">
+        ♟️ Learning journal
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planning" class="md-nav__link">
+        📅 Planning
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🧰 Embedded
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🧰 Embedded</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/requirements" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🌐 Web
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🌐 Web</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_reference" class="md-nav__link">
+        API reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database" class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                👩‍🎨 User Experience Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">👩‍🎨 User Experience Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                Concept & Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">Concept & Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/concept" class="md-nav__link">
+        Concept
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/design" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/create_test" class="md-nav__link">
+        Create & Test
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/conclude_reflect" class="md-nav__link">
+        Conclude & Reflect
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🔎 Research
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🔎 Research</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research" class="md-nav__link">
+        Research to Market
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-implementation" class="md-nav__link">
+        Research to Market: Implementation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+ 
+	</ul>
+</nav>
+			</div>
+		</div>
+		</div>
+	
+
+          
+
+	<div class="md-content" data-md-component="content">
+
+	<article class="mdocotion-content md-content__inner md-typeset">
+		<div class="mdocotion-content-scroller">
+			<main class="mdocotion-content-view">
+				<div class="mdocotion-content-block">
+					<div class="mdocotion-content-block-inner"> 
+
+
+<div><h1 id="code-backend-php-api">Code: Backend – PHP API</h1>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>In this part, ChatGPT was used to generate code comments such as class, method and function headers, which helped to maintain a standard and write correct code comments. It is a reflection of the code comments and structure of the code.</p>
+<h2 id="api-class-apiroutesapiphp">Api Class (<code>Api/Routes/Api.php</code>)</h2>
+<p><strong>Main API Router</strong><br>
+Handles all incoming HTTP requests, manages CORS, parses URIs, and dispatches to controller or view handlers.</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>requestMethod</code></td>
+<td><code>string</code></td>
+<td>private</td>
+<td>The HTTP method used in the current request.</td>
+</tr>
+<tr>
+<td><code>resource</code></td>
+<td><code>?string</code></td>
+<td>private</td>
+<td>The resource name (table or view) from the URI.</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td><code>?string</code></td>
+<td>private</td>
+<td>The optional ID parameter from the URI.</td>
+</tr>
+<tr>
+<td><code>pathParts</code></td>
+<td><code>string[]</code></td>
+<td>private</td>
+<td>Array of URI path segments.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods">Methods</h3>
+<h4 id="__construct"><code>__construct()</code></h4>
+<p>Initializes API routing, sets headers, and extracts request parameters.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="setheaders"><code>setHeaders()</code></h4>
+<p>Sets the response headers.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="handlecors"><code>handleCors()</code></h4>
+<p>Handles CORS headers for cross-origin requests.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="parserequesturi"><code>parseRequestUri()</code></h4>
+<p>Parses the request URI to determine resource and ID.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="run"><code>run()</code></h4>
+<p>Runs the API and routes the request to the appropriate handler.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="handleviewrequest"><code>handleViewRequest()</code></h4>
+<p>Handles API requests for database views.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="handletablerequest"><code>handleTableRequest()</code></h4>
+<p>Handles API requests for database tables.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="validateidbeforemodification"><code>validateIdBeforeModification()</code></h4>
+<p>Validates if ID is present before update or delete operations.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="sendresponsedata-status-200"><code>sendResponse(data, status = 200)</code></h4>
+<p>Sends a JSON response with an HTTP status code.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>data</code>: <code>array</code> Response data.</li>
+<li><strong>Parameter:</strong> <code>status</code>: <code>int</code> HTTP status code.</li>
+</ul>
+<h4 id="handlereadingwithsensordata"><code>handleReadingWithSensorData()</code></h4>
+<p>Handles a combined insert of reading and sensor data in one POST request.
+Expects JSON body with: { device_id: int, sensor_data: [ {sensor_id, value}, ... ] }</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h2 id="controller-class-apicontrollerscontrollerphp">Controller Class (<code>Api/Controllers/Controller.php</code>)</h2>
+<p><strong>Generic Table Controller</strong><br>
+Handles CRUD operations for any table dynamically.</p>
+<h3 id="properties_1">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>model</code></td>
+<td><code>Model</code></td>
+<td>protected</td>
+<td>Model instance bound to a table.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_1">Methods</h3>
+<h4 id="__constructtable"><code>__construct(table)</code></h4>
+<p>Initializes the controller with a specific model.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>table</code>: <code>string</code> The name of the database table.</li>
+</ul>
+<h4 id="getall"><code>getAll()</code></h4>
+<p>Returns all records as JSON.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="getbyidid"><code>getById(id)</code></h4>
+<p>Returns a single record by ID as JSON.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> — Record ID</li>
+</ul>
+<h4 id="create"><code>create()</code></h4>
+<p>Creates a new record (supports single and bulk inserts).</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="updateid"><code>update(id)</code></h4>
+<p>Updates an existing record.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> The ID of the record.</li>
+</ul>
+<h4 id="deleteid"><code>delete(id)</code></h4>
+<p>Deletes a record.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> The ID of the record.</li>
+</ul>
+<h4 id="sendjsonresponsedata-status-200"><code>sendJsonResponse(data, status = 200)</code></h4>
+<p>Sends a JSON response with the specified status code.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>data</code>: <code>array</code> Response data.</li>
+<li><strong>Parameter:</strong> <code>status</code>: <code>int</code> HTTP status code.</li>
+</ul>
+<h4 id="getjsonrequestbody"><code>getJsonRequestBody()</code></h4>
+<p>Retrieves the JSON request body as an associative array.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Return Type:</strong> <code>array</code> The decoded JSON body.</li>
+</ul>
+<h2 id="readingwithsensordatacontroller-class-apicontrollersreadingwithsensordatacontrollerphp">ReadingWithSensorDataController Class (<code>Api/Controllers/ReadingWithSensorDataController.php</code>)</h2>
+<p><strong>Custom Controller</strong><br>
+Handles atomic insert of a reading and associated sensor data in one transaction.</p>
+<h3 id="properties_2">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>db</code></td>
+<td><code>mysqli</code></td>
+<td>private</td>
+<td>Database connection instance.</td>
+</tr>
+<tr>
+<td><code>readingModel</code></td>
+<td><code>Model</code></td>
+<td>private</td>
+<td>Model for the <code>reading</code> table.</td>
+</tr>
+<tr>
+<td><code>sensorDataModel</code></td>
+<td><code>Model</code></td>
+<td>private</td>
+<td>Model for the <code>sensordata</code> table.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_2">Methods</h3>
+<h4 id="__construct_1"><code>__construct()</code></h4>
+<p>Initializes the controller with a specific database models.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="createwithsensordatapayload"><code>createWithSensorData(payload)</code></h4>
+<p>Creates a reading and inserts all associated sensor data in one transaction.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>payload</code>: <code>array</code> Input data from the client.</li>
+<li><strong>Return Type:</strong> <code>array</code> API response.</li>
+</ul>
+<h2 id="database-class-apimodelsdatabasephp">Database Class (<code>Api/Models/Database.php</code>)</h2>
+<p><strong>Database Singleton</strong><br>
+Manages a single MySQLi connection instance across the backend.</p>
+<h3 id="properties_3">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>instance</code></td>
+<td><code>?Database</code></td>
+<td>private</td>
+<td>Singleton instance of the class.</td>
+</tr>
+<tr>
+<td><code>connection</code></td>
+<td><code>mysqli</code></td>
+<td>private</td>
+<td>Active MySQLi connection.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_3">Methods</h3>
+<h4 id="getinstance"><code>getInstance()</code></h4>
+<p>Retrieves the singleton instance of the Database class.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Database</code> The singleton instance.</li>
+</ul>
+<h4 id="getconnection"><code>getConnection()</code></h4>
+<p>Gets the MySQLi connection instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>mysqli</code> The active database connection.</li>
+</ul>
+<h4 id="initializeconnection"><code>initializeConnection()</code></h4>
+<p>Initializes the database connection.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+</ul>
+<h4 id="sendjsonerrorresponseerrormessage"><code>sendJsonErrorResponse(errorMessage)</code></h4>
+<p>Sends a JSON error response and terminates execution.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>errorMessage</code>: <code>string</code> The error message.</li>
+</ul>
+<h2 id="model-class-apimodelsmodelphp">Model Class (<code>Api/Models/Model.php</code>)</h2>
+<p><strong>Generic Model</strong><br>
+IProvides CRUD operations for any table dynamically</p>
+<h3 id="properties_4">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>connection</code></td>
+<td><code>mysqli</code></td>
+<td>protected</td>
+<td>Database connection instance</td>
+</tr>
+<tr>
+<td><code>table</code></td>
+<td><code>string</code></td>
+<td>protected</td>
+<td>Database table name</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_4">Methods</h3>
+<h4 id="__constructtable_1"><code>__construct(table)</code></h4>
+<p>Initializes the model with a specific database table.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>table</code>: <code>string</code> The name of the database table.</li>
+</ul>
+<h4 id="getall_1"><code>getAll()</code></h4>
+<p>Retrieves all records from the table.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>array</code> Returns an associative array of all records.</li>
+</ul>
+<h4 id="getbyidid_1"><code>getById(id)</code></h4>
+<p>Retrieves a single record by its ID.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> The ID of the record.</li>
+<li><strong>Return Type:</strong> <code>?array</code> Returns the record as an associative array, or null if not found.</li>
+</ul>
+<h4 id="createdata"><code>create(data)</code></h4>
+<p>Inserts a new record into the table.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>data</code>: <code>array</code> An associative array representing the record.</li>
+<li><strong>Return Type:</strong> <code>?int</code> Returns true if the insert operation was successful.</li>
+</ul>
+<h4 id="createbulkdataset"><code>createBulk(dataSet)</code></h4>
+<p>Inserts multiple records into the table efficiently.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>dataSet</code>: <code>array[]</code> Array of records to insert.</li>
+<li><strong>Return Type:</strong> <code>bool</code> Returns true if the operation was successful.</li>
+</ul>
+<h4 id="updateid-data"><code>update(id, data)</code></h4>
+<p>Updates an existing record in the database.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> The ID of the record to update.</li>
+<li><strong>Parameter:</strong> <code>data</code>: <code>array</code> An associative array of column-value pairs to update.</li>
+<li><strong>Return Type:</strong> <code>bool</code>Returns true if the update was successful.</li>
+</ul>
+<h4 id="deleteid_1"><code>delete(id)</code></h4>
+<p>Deletes a record from the database.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>int</code> The ID of the record to delete.</li>
+<li><strong>Return Type:</strong> <code>bool</code> Returns true if the deletion was successful.</li>
+</ul>
+<h4 id="executequeryquery"><code>executeQuery(query)</code></h4>
+<p>Executes a prepared query and returns true on success.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>query</code>: <code>string</code> The SQL query.</li>
+<li><strong>Return Type:</strong> <code>array</code> The query result as an associative array.</li>
+</ul>
+<h4 id="executequery-types-params"><code>execute(query, types, params)</code></h4>
+<p>Executes a prepared query and returns true on success.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>query</code>: <code>string</code> The SQL query with placeholders.</li>
+<li><strong>Parameter:</strong> <code>types</code>: <code>string</code> The types of parameters.</li>
+<li><strong>Parameter:</strong> <code>params</code>: <code>array</code>The parameters to bind.</li>
+<li><strong>Return Type:</strong> <code>bool</code> Returns true if successful, false otherwise.</li>
+</ul>
+<h4 id="fetchsinglequery-types-params"><code>fetchSingle(query, types, params)</code></h4>
+<p>Executes a prepared query and fetches a single record.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>query</code>: <code>string</code> The SQL query with placeholders.</li>
+<li><strong>Parameter:</strong> <code>types</code>: <code>string</code> The types of parameters.</li>
+<li><strong>Parameter:</strong> <code>params</code>: <code>array</code>The parameters to bind.</li>
+<li><strong>Return Type:</strong> <code>?array</code> Returns the fetched record as an associative array or null.</li>
+</ul>
+<h4 id="executeinsertorupdatequeryprefix-data-querysuffix"><code>executeInsertOrUpdate(queryPrefix, data, querySuffix = "")</code></h4>
+<p>Executes an insert or update query dynamically.</p>
+<ul>
+<li><strong>Visibility:</strong> Private</li>
+<li><strong>Parameter:</strong> <code>queryPrefix</code>: <code>string</code> The query prefix (INSERT INTO or UPDATE ... SET).</li>
+<li><strong>Parameter:</strong> <code>data</code>: <code>array</code> The data to insert or update.</li>
+<li><strong>Parameter:</strong> <code>querySuffix</code>: <code>string</code> Optional suffix (used for WHERE conditions in updates).</li>
+<li><strong>Return Type:</strong> <code>bool</code> Returns true if the operation was successful.</li>
+</ul></div>
+
+
+
+
+  </div>
+				</div>
+			</main>
+		</div>
+	</article>
+</div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+     
+	
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+     
+
+  </body>
+</html>

@@ -1,0 +1,1688 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../code_backend/">
+      
+      
+        <link rel="next" href="../database/">
+      
+      <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Code: Frontend - IoT - Students' Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<link rel="stylesheet" href="../../assets/stylesheets/mdocotion.css" />
+	<script src="../../assets/javascripts/mdocotion.js"></script>
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#code-frontend" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+     
+	
+<header class="md-header" data-md-component="header">
+
+	<div class="header-inner">
+		<div class="header-info-bar">
+			<label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg> </label>
+
+			<ul class="mdocotion-breadcrumbs">
+			</ul>
+		</div>
+
+		<ul class="mdocotion-header-nav">
+			<li>
+				
+				<label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> </label>
+				<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+			</li>
+		</ul>
+	</div>
+</header> 
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+	
+		
+		
+			<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"  style="background: #f1f5f9;">
+		
+	
+		<div class="md-sidebar__scrollwrap">
+			<div class="md-sidebar__inner">
+			  
+<div class="mdocotion-nav-header">
+	<div class="mdocotion-nav-logo">
+		<a href="../.." >
+			
+  <img src="../../assets/logo.svg" alt="logo">
+
+		</a>
+		</div>
+	
+		IoT - Students' Portfolio
+	
+</div>
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+	<ul class="md-nav__list" data-md-scrollfix>
+		   
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        🏚️ Home
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system_architecture" class="md-nav__link">
+        📦 System Architecture
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal" class="md-nav__link">
+        ♟️ Learning journal
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planning" class="md-nav__link">
+        📅 Planning
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🧰 Embedded
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🧰 Embedded</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/requirements" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🌐 Web
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🌐 Web</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_reference" class="md-nav__link">
+        API reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database" class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                👩‍🎨 User Experience Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">👩‍🎨 User Experience Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                Concept & Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">Concept & Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/concept" class="md-nav__link">
+        Concept
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/design" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/create_test" class="md-nav__link">
+        Create & Test
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/conclude_reflect" class="md-nav__link">
+        Conclude & Reflect
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🔎 Research
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🔎 Research</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research" class="md-nav__link">
+        Research to Market
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-implementation" class="md-nav__link">
+        Research to Market: Implementation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+ 
+	</ul>
+</nav>
+			</div>
+		</div>
+		</div>
+	
+
+          
+
+	<div class="md-content" data-md-component="content">
+
+	<article class="mdocotion-content md-content__inner md-typeset">
+		<div class="mdocotion-content-scroller">
+			<main class="mdocotion-content-view">
+				<div class="mdocotion-content-block">
+					<div class="mdocotion-content-block-inner"> 
+
+
+<div><h1 id="code-frontend">Code: Frontend</h1>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>In this part, ChatGPT was used to generate code comments such as class, method and function headers, which helped to maintain a standard and write correct code comments. It is a reflection of the code comments and structure of the code.</p>
+<h2 id="app-class-mainjs">App Class (<code>main.js</code>)</h2>
+<p><strong>Main entry point</strong> for the application. Initializes the <strong>background animation, IoT devices, and UI components</strong>. Uses the <strong>ElementRegistry</strong> for efficient UI management.</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>backgroundScene</code></td>
+<td><code>BackgroundScene</code></td>
+<td>private</td>
+<td>The background scene instance.method</td>
+</tr>
+<tr>
+<td><code>devices</code></td>
+<td><code>Device[]</code></td>
+<td>private</td>
+<td>An array storing all IoT devices.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods">Methods</h3>
+<h4 id="constructor"><code>constructor()</code></h4>
+<p>Initializes the application by <strong>registering UI elements</strong> and setting up core components.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="init"><code>init()</code></h4>
+<p>Main initialization method.</p>
+<ul>
+<li><strong>Initializes the Three.js background</strong></li>
+<li><strong>Loads IoT devices asynchronously</strong></li>
+<li>
+<p><strong>Initializes UI components</strong></p>
+</li>
+<li>
+<p><strong>Visibility:</strong> Public</p>
+</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="initbackground"><code>initBackground()</code></h4>
+<p>Initializes the <strong>Three.js animated background</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initdevices"><code>initDevices()</code></h4>
+<p>Fetches and initializes all <strong>available IoT devices</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="registeruielements"><code>registerUIElements()</code></h4>
+<p><strong>Registers key UI elements</strong> into the <code>ElementRegistry</code> for efficient <strong>DOM access and management</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initui"><code>initUI()</code></h4>
+<p><strong>Initializes UI components</strong> such as:</p>
+<ul>
+<li><code>Loader</code> → Handles app startup animation</li>
+<li><code>Select</code> → Manages the selection menu</li>
+<li>
+<p><code>Carousel</code> → Enables navigation through devices</p>
+</li>
+<li>
+<p><strong>Visibility:</strong> Public</p>
+</li>
+</ul>
+<h2 id="apiclient-helpers-class-helpersapiclientjs">ApiClient Helpers Class (<code>helpers/ApiClient.js</code>)</h2>
+<p>Handles communication with the backend API to fetch and update data dynamically. Provides methods for retrieving sensor readings, device lists, and application settings.</p>
+<h3 id="properties_1">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>API_BASE_URL</code></td>
+<td><code>string</code></td>
+<td>public</td>
+<td>Base URL for API requests, dynamically set based on the current hostname.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_1">Methods</h3>
+<h4 id="fetchcurrentindex"><code>fetchCurrentIndex()</code></h4>
+<p>Retrieves the current index from the installation endpoint. (ESP32)</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;object[] | null&gt;</code></li>
+</ul>
+<h4 id="fetchlatestdevicereadingsdeviceid"><code>fetchLatestDeviceReadings(deviceId)</code></h4>
+<p>Fetches the latest sensor data for a specific device.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>deviceId</code>: <code>string</code> The unique identifier of the device.</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;object[] | null&gt;</code></li>
+</ul>
+<h4 id="fetchdevices"><code>fetchDevices()</code></h4>
+<p>Fetches the list of available devices.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;object[]&gt;</code></li>
+</ul>
+<h4 id="updatesettingid-value"><code>updateSetting(id, value)</code></h4>
+<p>Updates a specific setting in the database.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>id</code>: <code>string</code> The unique identifier of the setting.</li>
+<li><strong>Parameter:</strong> <code>value</code>: <code>number|string</code> The new value for the setting.</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;boolean&gt;</code></li>
+</ul>
+<h4 id="getsettings"><code>getSettings()</code></h4>
+<p>Retrieves application settings from the database.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;object&gt;</code></li>
+</ul>
+<h2 id="websocketclient-helpers-class-helperswebsocketclientjs">WebSocketClient Helpers Class (<code>helpers/WebSocketClient.js</code>)</h2>
+<p>Handles real-time communication with the backend using WebSocket-over-TLS. Synchronizes the active device index across connected clients and updates the frontend carousel in real-time.</p>
+<h3 id="properties_2">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>socket</code></td>
+<td><code>WebSocket \| null</code></td>
+<td>static</td>
+<td>Holds the active WebSocket connection instance or <code>null</code> if not connected.</td>
+</tr>
+<tr>
+<td><code>carousel</code></td>
+<td><code>Carousel \| null</code></td>
+<td>static</td>
+<td>Reference to the carousel instance used for updating the UI.</td>
+</tr>
+<tr>
+<td><code>URL</code></td>
+<td><code>string</code></td>
+<td>static</td>
+<td>WebSocket endpoint dynamically built from the current hostname and protocol.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_2">Methods</h3>
+<h4 id="setupcarousel"><code>setup(carousel)</code></h4>
+<p>Registers a <code>Carousel</code> instance to be controlled by the WebSocket client.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>carousel</code>: <code>Carousel</code> — The carousel instance to register.</li>
+</ul>
+<h4 id="connect"><code>connect()</code></h4>
+<p>Establishes a secure WebSocket connection to the backend, listens for index updates, and synchronizes the UI.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="disconnect"><code>disconnect()</code></h4>
+<p>Closes the existing WebSocket connection if active and cleans up resources.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h2 id="elementregistry-helpers-class-helperselementregistryjs">ElementRegistry Helpers Class (<code>helpers/ElementRegistry.js</code>)</h2>
+<p>Manages global references to UI elements. Provides an efficient way to register, retrieve, and manipulate DOM elements without repeated queries.</p>
+<h3 id="properties_3">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>elements</code></td>
+<td><code>Map&lt;string, HTMLElement&gt;</code></td>
+<td>public</td>
+<td>A Map storing registered elements by key.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_3">Methods</h3>
+<h4 id="registerkey-element"><code>register(key, element)</code></h4>
+<p>Registers an HTML element for easy access.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>key</code>: <code>string</code> Unique identifier for the element.</li>
+<li><strong>Parameter:</strong> <code>element</code>: <code>HTMLElement</code> The DOM element to register.</li>
+</ul>
+<h4 id="getkey"><code>get(key)</code></h4>
+<p>Retrieves a previously registered element.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>key</code>: <code>string</code> The identifier of the registered element.</li>
+<li><strong>Return Type:</strong> <code>HTMLElement|null</code></li>
+</ul>
+<h4 id="getkey_1"><code>get(key)</code></h4>
+<p>Retrieves a previously registered element.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>key</code>: <code>string</code> The identifier of the registered element.</li>
+<li><strong>Return Type:</strong> <code>HTMLElement|null</code></li>
+</ul>
+<h2 id="settings-helpers-class-helperssettingsjs">Settings Helpers Class (<code>helpers/Settings.js</code>)</h2>
+<p>Manages application settings by dynamically fetching and updating configuration values from the API. Converts setting keys from snake_case to camelCase for easier access in JavaScript. Also dynamically updates the settings UI and allows saving changes back to the database.</p>
+<h3 id="properties_4">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Visibility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>settings</code></td>
+<td><code>Record&lt;string, Setting&gt;</code></td>
+<td>public</td>
+<td>Stores dynamically loaded settings from the API. Keys are formatted in camelCase for easier access.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_4">Methods</h3>
+<h4 id="loadsettings"><code>loadSettings()</code></h4>
+<p>Fetches settings from the API and dynamically stores them. Updates the settings UI with input fields allowing user modifications.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="submitsettings"><code>submitSettings()</code></h4>
+<p>Sends updated settings to the API to be stored in the database.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="getkey_2"><code>get(key)</code></h4>
+<p>Retrieves a setting value from the loaded settings.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>key</code>: <code>string</code> The setting key in camelCase format.</li>
+<li><strong>Return Type:</strong> <code>number|null</code></li>
+</ul>
+<h2 id="utils-helpers-class-helpersutilsjs">Utils Helpers Class (<code>helpers/Utils.js</code>)</h2>
+<p>Utility class providing helper functions for value clamping, color interpolation based on temperature, humidity-based adjustments, and DOM element visibility manipulation.</p>
+<h3 id="methods_5">Methods</h3>
+<h4 id="clampvalue-min-max"><code>clamp(value, min, max)</code></h4>
+<p>Clamps a value within a specified range.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>value</code>: <code>number</code> The value to be clamped.</li>
+<li><strong>Parameter:</strong> <code>min</code>: <code>number</code> The minimum allowed value.</li>
+<li><strong>Parameter:</strong> <code>max</code>: <code>number</code> The maximum allowed value.</li>
+<li><strong>Return Type:</strong> <code>number</code></li>
+</ul>
+<h4 id="getprimarycolorrtemperature"><code>getPrimaryColorr(temperature)</code></h4>
+<p>Determines the primary color based on temperature using smooth interpolation.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> The temperature value.</li>
+<li><strong>Return Type:</strong> <code>string</code></li>
+</ul>
+<h4 id="interpolatecolorvalue-stops"><code>interpolateColor(value, stops)</code></h4>
+<p>Interpolates between color stops based on a given value.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> The input value (e.g., temperature).</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>ColorStop[]</code> Array of color stops with temperature and RGB values.</li>
+<li><strong>Return Type:</strong> <code>string</code></li>
+</ul>
+<h4 id="getsecondarycolortemperature-humidity"><code>getSecondaryColor(temperature, humidity)</code></h4>
+<p>Computes a secondary color based on temperature and humidity. The brightness is adjusted by blending humidity influence into the primary color.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> The temperature value.</li>
+<li><strong>Parameter:</strong> <code>humidity</code>: <code>number</code> Humidity percentage (0-100).</li>
+<li><strong>Return Type:</strong> <code>string</code></li>
+</ul>
+<h4 id="hideelement"><code>hide(element)</code></h4>
+<p>Hides a given DOM element by adding a "hidden" CSS class.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>element</code>: <code>HTMLElement</code> The DOM element to hide.</li>
+</ul>
+<h4 id="showelement"><code>show(element)</code></h4>
+<p>Shows a given DOM element by removing the "hidden" CSS class.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>element</code>: <code>HTMLElement</code> The DOM element to show.</li>
+</ul>
+<h4 id="toggleelement"><code>toggle(element)</code></h4>
+<p>Toggles the visibility of a registered element.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>element</code>: <code>HTMLElement</code> The DOM element to toggle.</li>
+</ul>
+<h4 id="getrandomvaluemin-max"><code>getRandomValue(min, max)</code></h4>
+<p>Generates a random value within the given range.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>min</code>: <code>number</code> The minimum value.</li>
+<li><strong>Parameter:</strong> <code>max</code>: <code>number</code> The maximum value.</li>
+<li><strong>Return Type:</strong> <code>number</code></li>
+</ul>
+<h2 id="backgroundscene-class-componentsbackgroundscenejs">BackgroundScene Class (<code>components/BackgroundScene.js</code>)</h2>
+<p>Singleton class representing an animated <strong>Three.js background</strong>.Dynamically adjusts based on environmental sensor data such as <strong>wind speed, pressure, temperature, humidity, and brightness</strong>.</p>
+<h3 id="properties_5">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>container</code></td>
+<td><code>HTMLElement</code></td>
+<td><code>public</code></td>
+<td>The HTML container element where the scene is rendered.</td>
+</tr>
+<tr>
+<td><code>scene</code></td>
+<td><code>THREE.Scene</code></td>
+<td><code>public</code></td>
+<td>The Three.js scene.</td>
+</tr>
+<tr>
+<td><code>camera</code></td>
+<td><code>THREE.PerspectiveCamera</code></td>
+<td><code>public</code></td>
+<td>The Three.js camera.</td>
+</tr>
+<tr>
+<td><code>renderer</code></td>
+<td><code>THREE.WebGLRenderer</code></td>
+<td><code>public</code></td>
+<td>The WebGL renderer for the scene.</td>
+</tr>
+<tr>
+<td><code>plane</code></td>
+<td><code>THREE.Mesh</code></td>
+<td><code>public</code></td>
+<td>The animated background mesh.</td>
+</tr>
+<tr>
+<td><code>uniforms</code></td>
+<td><code>object</code></td>
+<td><code>public</code></td>
+<td>Shader uniforms controlling animation behavior.</td>
+</tr>
+<tr>
+<td><code>targetHeight</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Height for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetNoiseScale</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Noise Scale for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetSpeed</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Speed for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetColor1</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Primary Color for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetColor2</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Secondary Color High for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetBrightness</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target Brightness for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>lerpSpeed</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Controls the smoothness of transitions.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_6">Methods</h3>
+<h4 id="constructorcontainerid"><code>constructor(containerId)</code></h4>
+<p>Creates or returns the existing BackgroundScene instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>containerId</code>: <code>string</code> The ID of the HTML container where the scene will be rendered.</li>
+</ul>
+<h4 id="initscene"><code>initScene()</code></h4>
+<p>Initializes the Three.js scene.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initcamera"><code>initCamera()</code></h4>
+<p>Initializes the camera with a fixed <strong>perspective view</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initrenderer"><code>initRenderer()</code></h4>
+<p>Initializes the WebGL renderer.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initbackground_1"><code>initBackground()</code></h4>
+<p>Creates and adds the <strong>animated background plane</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="resize"><code>resize()</code></h4>
+<p>Handles resizing to maintain <strong>correct aspect ratio</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="animate"><code>animate()</code></h4>
+<p><strong>Animation Loop</strong></p>
+<ul>
+<li>Updates <strong>shader time</strong></li>
+<li>Smoothly <strong>transitions between target values</strong></li>
+<li>
+<p>Renders the scene on each frame</p>
+</li>
+<li>
+<p><strong>Visibility:</strong> Public</p>
+</li>
+</ul>
+<h4 id="updateappearancepressure-temperature-humidity-light"><code>updateAppearance(pressure, temperature, humidity, light)</code></h4>
+<p><strong>Updates the Background Appearance</strong> based on real-time sensor data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Temperature in °C.</li>
+<li><strong>Parameter:</strong> <code>humidity</code>: <code>number</code> Relative humidity in %.</li>
+<li><strong>Parameter:</strong> <code>light</code>: <code>number</code> Ambient light in lux.</li>
+</ul>
+<h4 id="setnoisescalepressure"><code>setNoiseScale(pressure)</code></h4>
+<p>Updates the background noise scale based on atmospheric pressure.
+Lower pressure results in more turbulent, higher noise scale.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+</ul>
+<h4 id="setheightpressure"><code>setHeight(pressure)</code></h4>
+<p>Adjusts the background vertical height based on atmospheric pressure.
+Lower pressure raises the background to simulate uplift.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+</ul>
+<h4 id="setspeedpressure"><code>setSpeed(pressure)</code></h4>
+<p>Adjusts background animation speed based on atmospheric pressure.
+Lower pressure increases animation speed to simulate stronger winds.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>windSpeed</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+</ul>
+<h4 id="setcolor1temperature"><code>setColor1(temperature)</code></h4>
+<p>Updates the cooler base color of the background based on temperature.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Temperature in °C.</li>
+</ul>
+<h4 id="setcolor2temperature-humidity"><code>setColor2(temperature, humidity)</code></h4>
+<p>Updates the warmer highlight color of the background using temperature and humidity.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Temperature in °C.</li>
+<li><strong>Parameter:</strong> <code>humidity</code>: <code>number</code> Relative humidity in %.</li>
+</ul>
+<h4 id="setbrightnesslux"><code>setBrightness(lux)</code></h4>
+<p>Adjusts scene brightness based on ambient light in lux.
+Lux is mapped to a normalized brightness range..</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>lux</code>: <code>number</code> Ambient light level in lux.</li>
+</ul>
+<h4 id="getinstancecontainerid-backgroundcontainer"><code>getInstance(containerId = "backgroundContainer")</code></h4>
+<p><strong>Static method</strong> to get the <strong>singleton instance</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>containerId</code>: <code>string</code> The container ID (only needed for first initialization).</li>
+<li><strong>Return Type:</strong> <code>BackgroundScene</code></li>
+</ul>
+<h2 id="blobscene-class-componentsblobscenejs">BlobScene Class (<code>components/BlobScene.js</code>)</h2>
+<p>Represents a <strong>3D animated Blob</strong> using Three.js. The blob dynamically changes <strong>intensity, speed, and colors</strong> based on real-time <strong>sensor data</strong>.</p>
+<h3 id="properties_6">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>container</code></td>
+<td><code>HTMLElement</code></td>
+<td><code>public</code></td>
+<td>The container element where the Three.js scene is rendered.</td>
+</tr>
+<tr>
+<td><code>scene</code></td>
+<td><code>THREE.Scene</code></td>
+<td><code>public</code></td>
+<td>The Three.js scene.</td>
+</tr>
+<tr>
+<td><code>camera</code></td>
+<td><code>THREE.PerspectiveCamera</code></td>
+<td><code>public</code></td>
+<td>The Three.js camera.</td>
+</tr>
+<tr>
+<td><code>renderer</code></td>
+<td><code>THREE.WebGLRenderer</code></td>
+<td><code>public</code></td>
+<td>The WebGL renderer for the scene.</td>
+</tr>
+<tr>
+<td><code>controls</code></td>
+<td><code>OrbitControls</code></td>
+<td><code>public</code></td>
+<td>The orbit controls for camera interaction.</td>
+</tr>
+<tr>
+<td><code>blob</code></td>
+<td><code>THREE.Mesh</code></td>
+<td><code>public</code></td>
+<td>The animated blob mesh.</td>
+</tr>
+<tr>
+<td><code>uniforms</code></td>
+<td><code>object</code></td>
+<td><code>public</code></td>
+<td>Shader uniforms controlling animation behavior.</td>
+</tr>
+<tr>
+<td><code>targetIntensity</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target intensity for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetSpeed</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target speed for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetColor1</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target primary color for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>targetColor2</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Target secondary color for smooth transitions.</td>
+</tr>
+<tr>
+<td><code>lerpSpeed</code></td>
+<td><code>number</code></td>
+<td><code>public</code></td>
+<td>Controls the smoothness of transitions.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_7">Methods</h3>
+<h4 id="constructorcontainerid_1"><code>constructor(containerId)</code></h4>
+<p>Creates a new <strong>BlobScene</strong> instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>containerId</code>: <code>string</code> The <strong>ID</strong> of the HTML container where the scene will be rendered.</li>
+</ul>
+<h4 id="initscene_1"><code>initScene()</code></h4>
+<p>Initializes the <strong>Three.js Scene</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initcamera_1"><code>initCamera()</code></h4>
+<p>Initializes the <strong>Camera</strong> with a fixed <strong>1:1 aspect ratio</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initrenderer_1"><code>initRenderer()</code></h4>
+<p>Initializes the <strong>WebGL Renderer</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initcontrols"><code>initControls()</code></h4>
+<p>Initializes <strong>Orbit Controls</strong> for user interaction.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="initblob"><code>initBlob()</code></h4>
+<p>Creates and adds the <strong>animated blob mesh</strong> to the scene.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="resize_1"><code>resize()</code></h4>
+<p>Handles <strong>resizing</strong> to maintain a <strong>1:1 aspect ratio</strong>.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="animate_1"><code>animate()</code></h4>
+<p><strong>Animation Loop</strong></p>
+<ul>
+<li>Updates <strong>shader time</strong></li>
+<li>Smoothly <strong>transitions between target values</strong></li>
+<li>
+<p>Renders the scene on each frame</p>
+</li>
+<li>
+<p><strong>Visibility:</strong> Public</p>
+</li>
+</ul>
+<h4 id="updateappearancepressure-temperature-humidity"><code>updateAppearance(pressure, temperature, humidity)</code></h4>
+<p><strong>Updates the Blob Appearance</strong> based on real-time sensor data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Current atmospheric pressure (hPa).</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Current temperature (°C).</li>
+<li><strong>Parameter:</strong> <code>humidity</code>: <code>number</code> Current relative humidity (%).</li>
+</ul>
+<h4 id="setintensitypressure"><code>setIntensity(pressure)</code></h4>
+<p>Adjusts blob intensity based on atmospheric pressure.
+Lower pressure → higher intensity (chaotic visuals),
+Higher pressure → lower intensity (calm visuals).</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+</ul>
+<h4 id="setspeedpressure_1"><code>setSpeed(pressure)</code></h4>
+<p>Adjusts blob animation speed based on atmospheric pressure.
+Lower pressure → faster motion (energetic),
+Higher pressure → slower motion (calmer).</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>pressure</code>: <code>number</code> Atmospheric pressure in hPa.</li>
+</ul>
+<h4 id="setcolor1temperature_1"><code>setColor1(temperature)</code></h4>
+<p>Updates the primary blob color based on temperature.
+Warmer or cooler tones reflect the temperature visually.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Temperature in °C.</li>
+</ul>
+<h4 id="setcolor2temperature-humidity_1"><code>setColor2(temperature, humidity)</code></h4>
+<p>Updates the secondary blob color based on both temperature and humidity.
+Adds complexity to the color blending based on conditions.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>temperature</code>: <code>number</code> Temperature in °C.</li>
+<li><strong>Parameter:</strong> <code>humidity</code>: <code>number</code> Relative humidity in %.</li>
+</ul>
+<h2 id="carousel-class-componentscarouseljs">Carousel Class (<code>components/Carousel.js</code>)</h2>
+<p>Manages a dynamically interactive image carousel with navigation dots. Enables users to cycle through carousel items and updates the active device for sensor data visualization.</p>
+<h3 id="properties_7">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>carousel</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>The carousel container element.</td>
+</tr>
+<tr>
+<td><code>dotsContainer</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>The container holding navigation dots.</td>
+</tr>
+<tr>
+<td><code>carouselItems</code></td>
+<td><code>HTMLElement[]</code></td>
+<td><code>private</code></td>
+<td>An array of all carousel items.</td>
+</tr>
+<tr>
+<td><code>dots</code></td>
+<td><code>HTMLElement[]</code></td>
+<td><code>private</code></td>
+<td>An array of all navigation dots.</td>
+</tr>
+<tr>
+<td><code>activeIndex</code></td>
+<td><code>number</code></td>
+<td><code>private</code></td>
+<td>The index of the currently active carousel item.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_8">Methods</h3>
+<h4 id="constructorcarouselselector-dotscontainerselector"><code>constructor(carouselSelector, dotsContainerSelector)</code></h4>
+<p>Creates a new Carousel instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>carouselSelector</code>: <code>string</code> CSS selector for the carousel container.</li>
+<li><strong>Parameter:</strong> <code>dotsContainerSelector</code>: <code>string</code> CSS selector for the navigation dots container.</li>
+</ul>
+<h4 id="init_1"><code>init()</code></h4>
+<p>Initializes the carousel by setting up event listeners and updating UI.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="createdotslist"><code>createDotsList()</code></h4>
+<p>Generates the navigation dots dynamically based on the number of carousel items.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="updatecarousel"><code>updateCarousel()</code></h4>
+<p>Updates the carousel to reflect the currently active item. Adjusts positioning and triggers UI transitions.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="updatedots"><code>updateDots()</code></h4>
+<p>Updates the navigation dots to indicate the currently active carousel item.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="shiftleft"><code>shiftLeft()</code></h4>
+<p>Moves the carousel to the previous item.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="shiftright"><code>shiftRight()</code></h4>
+<p>Moves the carousel to the next item.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="addeventlisteners"><code>addEventListeners()</code></h4>
+<p><strong>Animation Loop</strong></p>
+<p>Adds event listeners for user interactions with the carousel and navigation dots.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h2 id="device-class-componentsdevicejs">Device Class (<code>components/Device.js</code>)</h2>
+<p>Represents an IoT device, handling sensor data retrieval, UI updates, and real-time visualizations through blob animations.</p>
+<h3 id="properties_8">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td><code>string</code></td>
+<td><code>private</code></td>
+<td>The unique identifier of the device.</td>
+</tr>
+<tr>
+<td><code>key</code></td>
+<td><code>string</code></td>
+<td><code>private</code></td>
+<td>The device key used for identifying the IoT station.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><code>string</code></td>
+<td><code>private</code></td>
+<td>The name of the device.</td>
+</tr>
+<tr>
+<td><code>sensorData</code></td>
+<td><code>object[]</code></td>
+<td><code>private</code></td>
+<td>Stores the latest sensor data.</td>
+</tr>
+<tr>
+<td><code>isActive</code></td>
+<td><code>boolean</code></td>
+<td><code>private</code></td>
+<td>Tracks whether the device is currently active in the carousel.</td>
+</tr>
+<tr>
+<td><code>updateInterval</code></td>
+<td><code>number/null</code></td>
+<td><code>private</code></td>
+<td>Interval ID for periodic sensor updates.</td>
+</tr>
+<tr>
+<td><code>backgroundScene</code></td>
+<td><code>BackgroundScene</code></td>
+<td><code>private</code></td>
+<td>Instance of the background scene.</td>
+</tr>
+<tr>
+<td><code>blobCanvasId</code></td>
+<td><code>string</code></td>
+<td><code>private</code></td>
+<td>The ID of the canvas element for blob animations.</td>
+</tr>
+<tr>
+<td><code>carouselItem</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>The carousel item representing the device.</td>
+</tr>
+<tr>
+<td><code>blobScene</code></td>
+<td><code>BlobScene</code></td>
+<td><code>private</code></td>
+<td>Instance of the blob scene visualization.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_9">Methods</h3>
+<h4 id="constructor-id-key-name"><code>constructor({ id, key, name })</code></h4>
+<p>Creates a new IoT Device instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>config</code>: <code>object</code> Device configuration.</li>
+<li><strong>Parameter:</strong> <code>config.id</code>: <code>string</code> Unique device identifier.</li>
+<li><strong>Parameter:</strong> <code>config.key</code>: <code>string</code> Device key (e.g., "station_1").</li>
+<li><strong>Parameter:</strong> <code>config.name</code>: <code>string</code> Device name (e.g., "Weather Station 1").</li>
+</ul>
+<h4 id="updatesensordata"><code>updateSensorData()</code></h4>
+<p>Fetches and updates the device's sensor data. Updates both the blob animation and UI elements if the device is active.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="getsensorvaluesensortype"><code>getSensorValue(sensorType)</code></h4>
+<p>Extracts a specific sensor value from the sensor data array.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>sensorType</code>: <code>string</code> The sensor type to retrieve.</li>
+<li><strong>Return Type:</strong> <code>number|undefined</code></li>
+</ul>
+<h4 id="createcarouselitem"><code>createCarouselItem()</code></h4>
+<p>Creates a carousel item representing the device..</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>HTMLElement|null</code></li>
+</ul>
+<h4 id="attacheventlisteners"><code>attachEventListeners()</code></h4>
+<p>Attaches event listeners to handle device activation within the carousel.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="generatemeasurementlist"><code>generateMeasurementList()</code></h4>
+<p>Generates the sensor measurement list for UI updates.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>string</code></li>
+</ul>
+<h4 id="refreshui"><code>refreshUI()</code></h4>
+<p>Updates the UI with the latest sensor data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="startupdating"><code>startUpdating()</code></h4>
+<p>Starts fetching sensor data at regular intervals.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Return Type:</strong> <code>Promise&lt;void&gt;</code></li>
+</ul>
+<h4 id="stopupdating"><code>stopUpdating()</code></h4>
+<p>Stops the periodic fetching of sensor data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h2 id="loader-class-componentsloaderjs">Loader Class (<code>components/Loader.js</code>)</h2>
+<p>Manages the application's loading animation and prepares the environment Uses a dynamic blob animation during the loading phase and transitions into the main UI after a specified duration.</p>
+<h3 id="properties_9">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>loader</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>The loader element.</td>
+</tr>
+<tr>
+<td><code>blobScene</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>Instance of the BlobScene, responsible for animated visuals.</td>
+</tr>
+<tr>
+<td><code>backgroundScene</code></td>
+<td><code>BackgroundScene</code></td>
+<td><code>private</code></td>
+<td>Background scene instance.</td>
+</tr>
+<tr>
+<td><code>updateInterval</code></td>
+<td><code>number/null</code></td>
+<td><code>private</code></td>
+<td>Interval ID for periodic updates to the blob animation.</td>
+</tr>
+<tr>
+<td><code>displayDuration</code></td>
+<td><code>number</code></td>
+<td><code>private</code></td>
+<td>Duration (in milliseconds) before transitioning to the main UI.</td>
+</tr>
+<tr>
+<td><code>updateFrequency</code></td>
+<td><code>number</code></td>
+<td><code>private</code></td>
+<td>Frequency (in milliseconds) of blob updates.</td>
+</tr>
+<tr>
+<td><code>callback</code></td>
+<td><code>Function</code></td>
+<td><code>private</code></td>
+<td>Callback function executed after loading is complete.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_10">Methods</h3>
+<h4 id="constructorcallback"><code>constructor(callback)</code></h4>
+<p>Creates a new Loader instance.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>callback</code>: <code>Function</code> Function to execute after loading completes..</li>
+</ul>
+<h4 id="init_2"><code>init()</code></h4>
+<p>Initializes the loader by creating the UI, starting the animation, and scheduling the transition to the main UI.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="createhtml"><code>createHTML()</code></h4>
+<p>Creates the loading screen UI elements. Adds a blob animation and heading text.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="startupdatingblob"><code>startUpdatingBlob()</code></h4>
+<p>Starts periodically updating the blob's appearance based on simulated environment data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="updateblobappearance"><code>updateBlobAppearance()</code></h4>
+<p>Updates the blob and background animation using randomly generated values that mimic environmental conditions.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="cleanup"><code>cleanup()</code></h4>
+<p>Cleans up the loading animation by stopping updates and hiding the loader UI.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="stopupdatingblob"><code>stopUpdatingBlob()</code></h4>
+<p>Stops the periodic updates to the blob animation.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="stopupdatingblob_1"><code>stopUpdatingBlob()</code></h4>
+<p>Stops the periodic updates to the blob animation.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h2 id="select-class-componentsselectjs">Select Class (<code>components/Select.js</code>)</h2>
+<p>Manages the application's loading animation and prepares the environment Uses a dynamic blob animation during the loading phase and transitions into the main UI after a specified duration.</p>
+<h3 id="properties_10">Properties</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Visibility</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>select</code></td>
+<td><code>HTMLElement/null</code></td>
+<td><code>private</code></td>
+<td>The selection menu element.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods_11">Methods</h3>
+<h4 id="constructor_1"><code>constructor()</code></h4>
+<p>Initializes the selection menu and retrieves necessary UI elements. If the select element is not found, logs an error.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="init_3"><code>init()</code></h4>
+<p>Dynamically creates the selection menu with available options. Clears existing elements and appends new menu items.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="createhtml_1"><code>createHTML()</code></h4>
+<p>Handles the user selection and updates the UI accordingly.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="handleselectionoption"><code>handleSelection(option)</code></h4>
+<p>Starts periodically updating the blob's appearance based on simulated environment data.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+<li><strong>Parameter:</strong> <code>option</code>: <code>string</code> The selected menu option.</li>
+</ul>
+<h4 id="showinstallation"><code>showInstallation()</code></h4>
+<p>Displays the installation view, updates UI elements, and triggers device updates. Hides the background and applies the "installation" class to the carousel.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul>
+<h4 id="showoverview"><code>showOverview()</code></h4>
+<p>Displays the overview view and ensures all relevant UI elements are visible.</p>
+<ul>
+<li><strong>Visibility:</strong> Public</li>
+</ul></div>
+
+
+
+
+  </div>
+				</div>
+			</main>
+		</div>
+	</article>
+</div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+     
+	
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+     
+
+  </body>
+</html>

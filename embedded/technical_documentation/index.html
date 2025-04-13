@@ -1,0 +1,850 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../requirements/">
+      
+      
+        <link rel="next" href="../../research/research-implementation/">
+      
+      <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Technical documentation - IoT - Students' Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<link rel="stylesheet" href="../../assets/stylesheets/mdocotion.css" />
+	<script src="../../assets/javascripts/mdocotion.js"></script>
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#technical-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+     
+	
+<header class="md-header" data-md-component="header">
+
+	<div class="header-inner">
+		<div class="header-info-bar">
+			<label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg> </label>
+
+			<ul class="mdocotion-breadcrumbs">
+			</ul>
+		</div>
+
+		<ul class="mdocotion-header-nav">
+			<li>
+				
+				<label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> </label>
+				<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+			</li>
+		</ul>
+	</div>
+</header> 
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+	
+		
+		
+			<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"  style="background: #f1f5f9;">
+		
+	
+		<div class="md-sidebar__scrollwrap">
+			<div class="md-sidebar__inner">
+			  
+<div class="mdocotion-nav-header">
+	<div class="mdocotion-nav-logo">
+		<a href="../.." >
+			
+  <img src="../../assets/logo.svg" alt="logo">
+
+		</a>
+		</div>
+	
+		IoT - Students' Portfolio
+	
+</div>
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+	<ul class="md-nav__list" data-md-scrollfix>
+		   
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        🏚️ Home
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system_architecture" class="md-nav__link">
+        📦 System Architecture
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal" class="md-nav__link">
+        ♟️ Learning journal
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planning" class="md-nav__link">
+        📅 Planning
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🧰 Embedded
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🧰 Embedded</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🌐 Web
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🌐 Web</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../web/technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../web/api_reference" class="md-nav__link">
+        API reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../web/code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../web/database" class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                👩‍🎨 User Experience Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">👩‍🎨 User Experience Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                Concept & Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">Concept & Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/concept" class="md-nav__link">
+        Concept
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/design" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/create_test" class="md-nav__link">
+        Create & Test
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/conclude_reflect" class="md-nav__link">
+        Conclude & Reflect
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🔎 Research
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🔎 Research</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research" class="md-nav__link">
+        Research to Market
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-implementation" class="md-nav__link">
+        Research to Market: Implementation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+ 
+	</ul>
+</nav>
+			</div>
+		</div>
+		</div>
+	
+
+          
+
+	<div class="md-content" data-md-component="content">
+
+	<article class="mdocotion-content md-content__inner md-typeset">
+		<div class="mdocotion-content-scroller">
+			<main class="mdocotion-content-view">
+				<div class="mdocotion-content-block">
+					<div class="mdocotion-content-block-inner"> 
+
+
+<div><h1 id="technical-documentation">Technical documentation</h1>
+<h2 id="wiring-diagram">Wiring Diagram</h2>
+<p>The wiring diagram is a visual representation of the electrical connections between components in the system.
+It showcaces how power, datalines and modules are connected can help for replication.</p>
+<h3 id="installation">Installation</h3>
+<p>Core installation, which includes a central ESP32 and output modules (LED strips and audio playback).</p>
+<p><img alt="Product" src="../../assets/embedded/installation.png"></p>
+<h3 id="sensors">Sensors</h3>
+<p>Dedicated Sensor reader, which includes a WEMOS and input modules (temperature, light, humidity and air pressure) aswell as an LED Output.</p>
+<p><img alt="Product" src="../../assets/embedded/sensors.png"></p>
+<p>This is the compact version which is currently used on a small breadboard. (No powerlines)</p>
+<p><img alt="Product" src="../../assets/embedded/sensors_compact%20%28Mini%20Rail%29.png"></p>
+<h3 id="kicad">KiCad</h3>
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<p>The Bill of Materials provides a detailed breakdown of the components used in this project.
+It showcaces different details on the individual modules and can help for replication.</p>
+<table>
+<thead>
+<tr>
+<th>Part #</th>
+<th>Manufacturer</th>
+<th>Description</th>
+<th>Qty</th>
+<th>Unit Price (incl. VAT)</th>
+<th>Subtotal (incl. VAT)</th>
+<th>Tolerance</th>
+<th>MTBF</th>
+<th>Product URL</th>
+<th>Datasheet URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESP-WROOM-32 Dev Board</td>
+<td>ELEGOO</td>
+<td>ESP32 WiFi/BLE Dev Board with USB Type-C</td>
+<td>1</td>
+<td>€9.00</td>
+<td>€9.00</td>
+<td>±5% (I/O spec)</td>
+<td>~1,000,000h</td>
+<td><a href="https://amzn.eu/d/1YMyH0u">Product</a></td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>WMD1MINIV4</td>
+<td>LOLIN</td>
+<td>Wemos D1 Mini V4 Compact ESP8266 WiFi Development Board</td>
+<td>1</td>
+<td>€5.67</td>
+<td>€5.67</td>
+<td>±5% (I/O spec)</td>
+<td>~1,000,000h</td>
+<td><a href="https://nl.aliexpress.com/item/32529101036.html?gatewayAdapt=glo2nld">Product</a></td>
+<td><a href="https://www.wemos.cc/en/latest/d1/d1_mini.html">Datasheet</a></td>
+</tr>
+<tr>
+<td>WATER-SENSOR</td>
+<td>OEM (DIYables)</td>
+<td>Analog water leak detector (Arduino/ESP compatible)</td>
+<td>1</td>
+<td>€1.44</td>
+<td>€1.44</td>
+<td>±10% (analog range)</td>
+<td>N/A</td>
+<td><a href="https://amzn.eu/d/26tePmK">Product</a></td>
+<td><a href="https://curtocircuito.com.br/datasheet/sensor/nivel_de_agua_analogico.pdf?srsltid=AfmBOooqoDdOsugtCBZMuwH1-oMSFLe7yYytfpSWvciED3F50GMmWCqd">Datasheet</a></td>
+</tr>
+<tr>
+<td>GY-302 BH1750</td>
+<td>OEM (Rohm Module)</td>
+<td>Digital light intensity sensor (lux)</td>
+<td>1</td>
+<td>€6.33</td>
+<td>€6.33</td>
+<td>±3%</td>
+<td>~100,000h</td>
+<td><a href="https://amzn.eu/d/iquJguZ">Product</a></td>
+<td><a href="https://cdn.sparkfun.com/datasheets/Sensors/Light/BH1750.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>Micro SD Card 4GB</td>
+<td>Cloudisk</td>
+<td>Class 4 microSD storage card</td>
+<td>1</td>
+<td>€6.00</td>
+<td>€6.00</td>
+<td>±5% (voltage)</td>
+<td>~500,000h</td>
+<td><a href="https://amzn.eu/d/hMVhT2f">Product</a></td>
+<td><a href="https://www.sdcard.org/downloads/pls/simplified_specs/">Datasheet</a></td>
+</tr>
+<tr>
+<td>GY-68 BMP180</td>
+<td>OEM (Bosch Sensor)</td>
+<td>Pressure &amp; temperature sensor module</td>
+<td>1</td>
+<td>€1.83</td>
+<td>€1.83</td>
+<td>±1 hPa</td>
+<td>~200,000h</td>
+<td><a href="https://amzn.eu/d/6iiimTO">Product</a></td>
+<td><a href="https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>WS2812B LED Strip</td>
+<td>OEM (Worldsemi)</td>
+<td>Individually addressable RGB LED strip (144 LEDs/m)</td>
+<td>1m</td>
+<td>€12.00</td>
+<td>€12.00</td>
+<td>±10% (brightness binning)</td>
+<td>~50,000h</td>
+<td><a href="https://amzn.eu/d/bbOjDeR">Product</a></td>
+<td><a href="https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>DFPLAYER-MINI</td>
+<td>DFRobot</td>
+<td>MP3 player module with microSD input &amp; speaker support</td>
+<td>1</td>
+<td>€4.55</td>
+<td>€4.55</td>
+<td>±5%</td>
+<td>~100,000h</td>
+<td><a href="https://amzn.eu/d/2WhzTEw">Product</a></td>
+<td><a href="https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299">Datasheet</a></td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>OEM</td>
+<td>3W 4Ω speaker for audio output</td>
+<td>2</td>
+<td>€4.50</td>
+<td>€9.00</td>
+<td>±5% (impedance)</td>
+<td>N/A</td>
+<td><a href="https://amzn.eu/d/4V2sNB1">Product</a></td>
+<td><a href="https://www.electrokit.com/uploads/productfile/41005/41005_datasheet.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>KY-015 DHT11</td>
+<td>Keyes</td>
+<td>Temperature &amp; humidity sensor module</td>
+<td>1</td>
+<td>€1.90</td>
+<td>€1.90</td>
+<td>±2°C / ±5% RH</td>
+<td>~200,000h</td>
+<td><a href="https://amzn.eu/d/7gZ3JpF">Product</a></td>
+<td><a href="https://cdn.sparkfun.com/datasheets/Sensors/Temperature/DHT11.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>LED-GREEN</td>
+<td>OEM (Kingbright)</td>
+<td>5mm green LED (from pack of 50)</td>
+<td>1</td>
+<td>€0.06</td>
+<td>€0.06</td>
+<td>±20% (luminous flux)</td>
+<td>~100,000h</td>
+<td><a href="https://amzn.eu/d/4NFvCYh">Product</a></td>
+<td><a href="https://www.farnell.com/datasheets/2724776.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>JUMPER-WIRE-40PCS</td>
+<td>OEM</td>
+<td>20cm male/female jumper wires (3 x 40 pieces)</td>
+<td>49</td>
+<td>€0.09</td>
+<td>€4.41</td>
+<td>N/A</td>
+<td>N/A</td>
+<td><a href="https://amzn.eu/d/7afTDd8">Product</a></td>
+<td><a href="https://cdn-learn.adafruit.com/assets/assets/000/077/148/original/adafruit_products_jumperspecs.png?1661879119">Datasheet</a></td>
+</tr>
+<tr>
+<td>Mini BREADBOARD</td>
+<td>OEM</td>
+<td>170-point solderless breadboard</td>
+<td>1</td>
+<td>€1.60</td>
+<td>€1.60</td>
+<td>N/A</td>
+<td>N/A</td>
+<td><a href="https://amzn.eu/d/hOiSBih">Product</a></td>
+<td><a href="https://handsontec.com/dataspecs/accessory/Breadboard-Full.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>BREADBOARD-MB102</td>
+<td>OEM</td>
+<td>830-point full-size solderless breadboard</td>
+<td>2</td>
+<td>€2.40</td>
+<td>€4.80</td>
+<td>N/A</td>
+<td>N/A</td>
+<td><a href="https://amzn.eu/d/dgZWfJT">Product</a></td>
+<td><a href="https://handsontec.com/dataspecs/accessory/Breadboard-Full.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>RES220OHM-1/4W</td>
+<td>OEM (UniOhm)</td>
+<td>220Ω resistor ±1%, 0.25W (from 100 pcs pack)</td>
+<td>1</td>
+<td>€0.05</td>
+<td>€0.05</td>
+<td>±1%</td>
+<td>~1,000,000h</td>
+<td><a href="https://amzn.eu/d/03ejJvN">Product</a></td>
+<td><a href="https://www.farnell.com/datasheets/2861122.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>USB-C-CHARGER-5V1A</td>
+<td>MatauMahi</td>
+<td>USB-C charger cable for power banks and devices (5V/1A)</td>
+<td>2</td>
+<td>€7.99</td>
+<td>€15.98</td>
+<td>±5% (output voltage)</td>
+<td>N/A</td>
+<td><a href="https://www.amazon.nl/dp/B0C7ZP855X">Product</a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Disclaimer:</strong><br>
+The Tolerance and MTBF values listed are approximations provided by ChatGPT which uses general component knowledge and public datasheets.<br>
+These values serve as a practical estimate and should be cross-checked with manufacturer specifications for critical designs.</p>
+</blockquote></div>
+
+
+
+
+  </div>
+				</div>
+			</main>
+		</div>
+	</article>
+</div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+     
+	
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+     
+
+  </body>
+</html>

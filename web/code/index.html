@@ -1,0 +1,813 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../api_reference/">
+      
+      
+        <link rel="next" href="../code_backend/">
+      
+      <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Web Code - IoT - Students' Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<link rel="stylesheet" href="../../assets/stylesheets/mdocotion.css" />
+	<script src="../../assets/javascripts/mdocotion.js"></script>
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#web-code" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+     
+	
+<header class="md-header" data-md-component="header">
+
+	<div class="header-inner">
+		<div class="header-info-bar">
+			<label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg> </label>
+
+			<ul class="mdocotion-breadcrumbs">
+			</ul>
+		</div>
+
+		<ul class="mdocotion-header-nav">
+			<li>
+				
+				<label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> </label>
+				<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+			</li>
+		</ul>
+	</div>
+</header> 
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+	
+		
+		
+			<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"  style="background: #f1f5f9;">
+		
+	
+		<div class="md-sidebar__scrollwrap">
+			<div class="md-sidebar__inner">
+			  
+<div class="mdocotion-nav-header">
+	<div class="mdocotion-nav-logo">
+		<a href="../.." >
+			
+  <img src="../../assets/logo.svg" alt="logo">
+
+		</a>
+		</div>
+	
+		IoT - Students' Portfolio
+	
+</div>
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+	<ul class="md-nav__list" data-md-scrollfix>
+		   
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        🏚️ Home
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system_architecture" class="md-nav__link">
+        📦 System Architecture
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal" class="md-nav__link">
+        ♟️ Learning journal
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planning" class="md-nav__link">
+        📅 Planning
+      </a>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🧰 Embedded
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🧰 Embedded</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/requirements" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../embedded/code" class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🌐 Web
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🌐 Web</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical_documentation" class="md-nav__link">
+        Technical documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_reference" class="md-nav__link">
+        API reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database" class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                👩‍🎨 User Experience Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">👩‍🎨 User Experience Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                Concept & Design
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">Concept & Design</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/concept" class="md-nav__link">
+        Concept
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/design" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/create_test" class="md-nav__link">
+        Create & Test
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uxd/conclude_reflect" class="md-nav__link">
+        Conclude & Reflect
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+    
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+        <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+            <span class="md-nav__icon md-icon"></span>
+            
+                🔎 Research
+            
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          <a href="../..">🔎 Research</a>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research" class="md-nav__link">
+        Research to Market
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-implementation" class="md-nav__link">
+        Research to Market: Implementation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+ 
+	</ul>
+</nav>
+			</div>
+		</div>
+		</div>
+	
+
+          
+
+	<div class="md-content" data-md-component="content">
+
+	<article class="mdocotion-content md-content__inner md-typeset">
+		<div class="mdocotion-content-scroller">
+			<main class="mdocotion-content-view">
+				<div class="mdocotion-content-block">
+					<div class="mdocotion-content-block-inner"> 
+
+
+<div><h1 id="web-code">Web Code</h1>
+<h2 id="frontend">Frontend</h2>
+<p>The frontend JavaScript is implemented in full <strong>OOP</strong> to adopt a <strong>modular approach</strong>.
+With use of SCSS which is served with Vite with hot reload.
+Twig was used as a template engine even tho it is not really that necessary for this project.</p>
+<h3 id="project-structure">Project Structure</h3>
+<p>The project follows this <strong>structure</strong> for maintainability:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span></pre></div></td><td class="code"><div><pre><span></span><code>/frontend
+│
+├── /assets                # Static assets and application logic
+│   ├── /js               # JavaScript modules (OOP, ES6+, app logic)
+│   ├── /shaders          # WebGL / Three.js shaders
+│   └── /styles           # SCSS stylesheets and design utilities
+│
+├── /templates             # Twig templating system
+│   ├── /partials         # Reusable UI components (e.g. header, footer)
+│   ├── base.twig         # Base layout used by pages
+│   └── index.twig        # Entry point template rendered via PHP
+│
+├── build-twig.php         # Builds `index.php` using Twig and Vite manifest
+├── index.php              # Front controller that renders the main view (Twig entry)
+│
+├── .eslintrc.json         # JavaScript linting configuration (Airbnb + Prettier)
+├── .htmlhintrc            # HTML validation rules
+├── .stylelintrc.json      # SCSS/CSS linting rules
+├── package.json           # NPM dependencies and Vite build scripts
+└── vite.config.js         # Vite dev server and build configuration
+</code></pre></div></td></tr></table></div>
+<h3 id="coding-standards">Coding Standards</h3>
+<p>To keep the frontend code <strong>clean, readable, and maintainable</strong>, the following conventions are used:</p>
+<h4 id="javascript-eslint-prettier"><strong>JavaScript (ESLint &amp; Prettier)</strong></h4>
+<ul>
+<li><strong>root</strong> (<code>root: true</code>): Marks this ESLint configuration as the root configuration, preventing ESLint from searching further up the directory structure.</li>
+<li><strong>extends</strong> (<code>extends: ["airbnb-base", "eslint:recommended", "prettier"]</code>):</li>
+<li>Inherits rules from:<ul>
+<li><strong>airbnb-base</strong>: Airbnb's JavaScript style guide (excluding React rules).</li>
+<li><strong>eslint:recommended</strong>: Standard recommended rules provided by ESLint.</li>
+<li><strong>prettier</strong>: Rules that ensure compatibility with Prettier formatting.</li>
+</ul>
+</li>
+<li><strong>plugins</strong> (<code>plugins: ["prettier"]</code>): Enables integration with the Prettier formatter.</li>
+<li><strong>prettier/prettier</strong> (<code>error</code>): Ensures code formatting adheres to Prettier configuration.</li>
+<li><strong>camelcase</strong> (<code>error</code>): Enforces camelCase naming convention for identifiers.</li>
+<li><strong>new-cap</strong> (<code>error</code>): Requires constructors to start with an uppercase letter.</li>
+<li><strong>no-underscore-dangle</strong> (<code>error</code>): Disallows identifiers from starting or ending with underscores.</li>
+<li><strong>prefer-const</strong> (<code>error</code>): Enforces using <code>const</code> for variables that are never reassigned.</li>
+<li><strong>eqeqeq</strong> (<code>error</code>): Requires strict equality (<code>===</code>) over abstract equality (<code>==</code>).</li>
+<li><strong>arrow-body-style</strong> (<code>["error", "as-needed"]</code>): Enforces concise arrow function syntax when possible.</li>
+<li><strong>object-curly-spacing</strong> (<code>["error", "always"]</code>): Requires spaces inside curly braces.</li>
+<li><strong>no-console</strong> (<code>warn</code> with exceptions for <code>warn</code> and <code>error</code>): Allows <code>console.warn</code> and <code>console.error</code>, but warns against other console methods.</li>
+</ul>
+<h4 id="html">HTML</h4>
+<ul>
+<li>All attribute names must be in lowercase.</li>
+<li>Elements cannot have duplicate attributes.</li>
+<li>Attribute values cannot contain unsafe chars</li>
+<li>Doctype must be declared first.</li>
+<li>Invalid doctype.</li>
+<li>The <code>&lt;script&gt;</code> tag cannot be used in a tag.</li>
+<li>The id and class attribute values must meet the specified rules: "dash"</li>
+<li>The value of id attributes must be unique.</li>
+<li>The alt attribute of an element must be present and alt attribute of area[<code>href</code>] and input[<code>type=image</code>] must have a value.</li>
+<li>Do not mix tabs and spaces for indentation: "space"</li>
+<li>Special characters must be escaped.</li>
+<li><code>&lt;style&gt;</code> tags cannot be used.</li>
+<li>Tag must be paired.</li>
+<li>Empty tags must be self closed.</li>
+<li>All html element names must be in lowercase.</li>
+<li><code>&lt;title&gt;</code> must be present in <code>&lt;head&gt;</code> tag.</li>
+</ul>
+<h4 id="scss">SCSS</h4>
+<ul>
+<li>Specify short or long notation for hex colors: short</li>
+<li>Disallow named colors.</li>
+<li>Limit the depth of nesting: 3</li>
+<li>Pattern for class selectors: <code>"^[a-z]+([a-z0-9-]+[a-z0-9]+)?$"</code></li>
+<li>selector-id-pattern: <code>"^[a-z]+([a-z0-9-]+[a-z0-9]+)?$"</code></li>
+<li>scss/at-mixin-pattern: <code>"^[a-z]+([a-z0-9-]+[a-z0-9]+)?$"</code></li>
+<li>scss/dollar-variable-pattern: <code>"^[a-z]+([a-z0-9-]+[a-z0-9]+)?$"</code></li>
+<li>Disallow extension in @import, @use, @forward, and [meta.load-css] commands.</li>
+<li>Always Require whitespace after the // in //-comments</li>
+<li>Disallow !important within declarations.</li>
+<li>List of disallowed units. <code>["pt"]</code></li>
+<li>Disallow units for zero lengths.</li>
+<li>Disallow vendor prefixes for properties.</li>
+<li>Disallow vendor prefixes for values.</li>
+<li>Disallow selectors of lower specificity from coming after overriding selectors of higher specificity. null</li>
+<li>Disallow empty blocks.</li>
+<li>Require whitespace on the inside of comment markers.</li>
+<li>Disallow qualifying a selector by type. <code>[true, { "ignore": ["attribute", "class", "id"] }]</code></li>
+</ul>
+<h3 id="linting-formatting">Linting &amp; Formatting</h3>
+<p>The project includes <strong>ESLint</strong>, <strong>htmlhint</strong> and <strong>stylelint</strong> for code quality.</p>
+<h4 id="run-code-linting">Run Code Linting</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>lint
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>lint:html
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>lint:scss
+</code></pre></div></td></tr></table></div>
+<h4 id="fix-formatting-issues">Fix Formatting Issues</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>lint:fix
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>lint:scss:fix
+</code></pre></div></td></tr></table></div>
+<h3 id="build">Build</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>build
+</code></pre></div></td></tr></table></div>
+<p>Automatically builds a new build version with vite and twig.</p>
+<h3 id="testing">Testing</h3>
+<p>Manual UI testing was conducted in Chrome and Firefox. All HTTP responses were verified to ensure proper status codes and JSON formatting.</p>
+<h3 id="code-documentation">Code Documentation</h3>
+<ul>
+<li>See the <a href="../code_frontend/">Detailed Javascript Documentation</a></li>
+</ul>
+<h3 id="repository">Repository</h3>
+<ul>
+<li><strong>Source Code:</strong> <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/tree/main/web/src/frontend?ref_type=heads">GitHub Repository</a></li>
+</ul>
+<h2 id="backend">Backend</h2>
+<p>The backend is implemented in full OOP in order to build a <strong>RESTful API</strong> with <strong>MVC principles</strong>.</p>
+<h3 id="project-structure_1">Project Structure</h3>
+<p>The project follows this <strong>structure</strong> for maintainability:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code>/api
+│── /Routes
+│   ├── Api.php            # API Router – handles incoming requests
+│── /Controllers
+│   ├── Controller.php     # Base controller – handles CRUD logic
+│── /Models
+│   ├── Model.php          # Generic database model (CRUD operations)
+│   ├── Database.php       # Singleton DB connection
+│── /Views
+│   ├── View.php           # Handles database views
+│── index.php              # API entry point
+│── composer.json          # Dependencies and autoloading
+</code></pre></div></td></tr></table></div>
+<h3 id="coding-standards_1">Coding Standards</h3>
+<p>To keep the backend code <strong>clean, readable, and maintainable</strong>, the following conventions are used:</p>
+<ul>
+<li><strong>PSR12 Standard</strong>: Enforces PHP coding style according to the PSR-12 Extended Coding Style standard, including:</li>
+<li>Proper namespace and class declarations.</li>
+<li>Correct method and property visibility.</li>
+<li>Consistent indentation and spacing.</li>
+<li>Control structures formatting.</li>
+<li>Adherence to PHPDoc standards.</li>
+</ul>
+<h4 id="run-code-linting_1">Run Code Linting</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>composer<span class="w"> </span>lint
+</code></pre></div></td></tr></table></div>
+<h4 id="fix-formatting-issues_1">Fix Formatting Issues</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>composer<span class="w"> </span>fix
+</code></pre></div></td></tr></table></div>
+<h3 id="testing_1">Testing</h3>
+<p>All API endpoints were tested using Postman and automated Jest test cases for frontend logic.</p>
+<h3 id="deployment">Deployment</h3>
+<p>For public PHP API is containerized via Docker, with services for PHP-FPM, Nginx, and MariaDB. For public demos, the API is tunneled using LocalTunnel.</p>
+<h3 id="code-documentation_1">Code Documentation</h3>
+<ul>
+<li>See the <a href="../code_backend/">Detailed Code Documentation</a></li>
+</ul>
+<h3 id="repository_1">Repository</h3>
+<ul>
+<li><strong>Source Code:</strong> <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/tree/main/web/src/api?ref_type=heads">GitHub Repository</a></li>
+</ul></div>
+
+
+
+
+  </div>
+				</div>
+			</main>
+		</div>
+	</article>
+</div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+     
+	
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+     
+
+  </body>
+</html>

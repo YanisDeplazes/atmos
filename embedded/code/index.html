@@ -563,7 +563,7 @@
 <div><h1 id="embedded-code">Embedded code</h1>
 <h2 id="esp32-wroom-da-module-installation-device">ESP32-WROOM-DA Module (Installation Device)</h2>
 <p>The ESP32 acts as the installation device with auditive and visual output modules. It fetches environmental data from the sensor devices over HTTPS from the API and updates the LED strip and plays a sound based on the received weather data. It also acts as a secure HTTPS server and fetches an HTTPS POST Request to <strong>NGINX Push Stream</strong> which allows WebSocket to update the current index of which device is currently displayed.</p>
-<p><a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/tree/main/embedded/final/installation">Source Code for inspection</a></p>
+<p><a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation">Source Code for inspection</a></p>
 <h3 id="key-responsibilities">Key Responsibilities</h3>
 <ul>
 <li>Uses WiFiManager for dynamic WiFi config to remove hardcoded credentials.</li>
@@ -650,7 +650,7 @@
 </table>
 <h2 id="wemos-d1-mini-reader-device">WEMOS D1 Mini (Reader Device)</h2>
 <p>The WEMOS D1 Mini acts as a <strong>sensor reader</strong> Device. It reads values from input sensors and sends them over HTTPS to the backend API. These devices are scalable since they register themselves via their MAC Addresses.</p>
-<p><a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/tree/main/embedded/final/sensors">Source Code for inspection</a></p>
+<p><a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors">Source Code for inspection</a></p>
 <h3 id="key-responsibilities_1">Key Responsibilities</h3>
 <ul>
 <li>Registers itself to the Database via MAC address through the API (HTTPS POST).</li>

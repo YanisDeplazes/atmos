@@ -609,15 +609,15 @@
 They can fetch data using <code>GET</code> and upload sensor readings using <code>POST</code>.</p>
 <hr>
 <h3 id="get-fetch-devices">GET: Fetch Devices</h3>
-<p><strong>File:</strong> <code>Client.cpp</code> — Line 165 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/Client.cpp?ref_type=heads#L165">Source</a></p>
+<p><strong>File:</strong> <code>Client.cpp</code> — Line 165 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/Client.cpp?ref_type=heads#L165">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">raw</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">httpGET</span><span class="p">(</span><span class="s">"/api/device"</span><span class="p">);</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="get-latest-reading-for-device">GET: Latest Reading for Device</h3>
-<p><strong>File:</strong> <code>Client.cpp</code> — Line 202 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/Client.cpp?ref_type=heads#L202">Source</a></p>
+<p><strong>File:</strong> <code>Client.cpp</code> — Line 202 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/Client.cpp?ref_type=heads#L202">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">raw</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">httpGET</span><span class="p">(</span><span class="s">"/api/views/LatestDeviceReadings?device_id=1"</span><span class="p">);</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="post-register-device">POST: Register Device</h3>
-<p><strong>File:</strong> <code>Client.cpp</code> — Line 208 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/Client.cpp?ref_type=heads#L208">Source</a></p>
+<p><strong>File:</strong> <code>Client.cpp</code> — Line 208 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/Client.cpp?ref_type=heads#L208">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -633,7 +633,7 @@ They can fetch data using <code>GET</code> and upload sensor readings using <cod
 <span class="n">httpPOST</span><span class="p">(</span><span class="s">"/api/device"</span><span class="p">,</span><span class="w"> </span><span class="n">payload</span><span class="p">,</span><span class="w"> </span><span class="s">"application/json"</span><span class="p">);</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="post-send-reading-sensor-data">POST: Send Reading + Sensor Data</h3>
-<p><strong>File:</strong> <code>Client.cpp</code> — Line 258 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/Client.cpp?ref_type=heads#L258">Source</a></p>
+<p><strong>File:</strong> <code>Client.cpp</code> — Line 258 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/Client.cpp?ref_type=heads#L258">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -666,7 +666,7 @@ They can fetch data using <code>GET</code> and upload sensor readings using <cod
 <p>The ESP32 device hosts a HTTPS server using a self-signed certificate.
 It exposes the <code>/index</code> route to get the current index of what device is currently displayed for a fallback.</p>
 <h3 id="get-index-endpoint">GET: /index Endpoint</h3>
-<p><strong>File:</strong> <code>server.cpp</code> — Line ~45 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/Server.cpp?ref_type=heads#L45">Source</a></p>
+<p><strong>File:</strong> <code>server.cpp</code> — Line ~45 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/Server.cpp?ref_type=heads#L45">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -682,7 +682,7 @@ It exposes the <code>/index</code> route to get the current index of what device
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="https-server-setup">HTTPS Server Setup</h3>
-<p><strong>File:</strong> <code>server.cpp</code> — Line ~63 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/Server.cpp?ref_type=heads#L63">Source</a></p>
+<p><strong>File:</strong> <code>server.cpp</code> — Line ~63 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/Server.cpp?ref_type=heads#L63">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -706,7 +706,7 @@ It exposes the <code>/index</code> route to get the current index of what device
 <h3 id="nginx-settings">NGINX Settings</h3>
 <p>The system uses NGINX's Push Stream Module to broadcast the current index when it changes.
 The subscribed client (IPad or Browser) can receive real-time updates over the WebSocket-like connection.</p>
-<p><strong>File:</strong> <code>nginx.conf</code> — Line ~51 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/docker/config/nginx/nginx.conf#L51">Source</a></p>
+<p><strong>File:</strong> <code>nginx.conf</code> — Line ~51 <a href="https://github.com/YanisDeplazes/atmos/tree/main/docker/config/nginx/nginx.conf#L51">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -729,7 +729,7 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <h2 id="embrq03-sensor-data-collection">EMBRQ#03 — Sensor Data Collection</h2>
 <p>The reader device integrates 4 types of sensors (DHT11, BMP180, BH1750, analog water sensor) to measure environmental data and upload it to the backend API via HTTPS. Each sensor is initialized and polled in the main loop, with results printed to the serial monitor and sent as a single payload to the API.</p>
 <h3 id="loop">Loop</h3>
-<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~119 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/sensors.ino?ref_type=heads#L119">Source</a></p>
+<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~119 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/sensors.ino?ref_type=heads#L119">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -745,7 +745,7 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="reading-functions">Reading Functions</h3>
-<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~134 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/sensors.ino?ref_type=heads#L134">Source</a></p>
+<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~134 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/sensors.ino?ref_type=heads#L134">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -809,11 +809,11 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <li>Mini MP3 DFPlayer Player (Plays sound depending on weather)</li>
 </ul>
 <h3 id="led">LED</h3>
-<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~111 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/sensors.ino?ref_type=heads#L111">Source</a></p>
+<p><strong>File:</strong> <code>sensors.ino</code> — Lines ~111 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/sensors.ino?ref_type=heads#L111">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">  </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">WIFI_LED_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">HIGH</span><span class="p">);</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="ws2812b-ledstrip">WS2812B Ledstrip</h3>
-<p><strong>File:</strong> <code>LEDManager.cpp</code> — Lines ~50 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/LEDManager.cpp?ref_type=heads#L50">Source</a></p>
+<p><strong>File:</strong> <code>LEDManager.cpp</code> — Lines ~50 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/LEDManager.cpp?ref_type=heads#L50">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -822,7 +822,7 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <span class="w">  </span><span class="n">FastLED</span><span class="p">.</span><span class="n">setBrightness</span><span class="p">(</span><span class="n">LED_BRIGHTNESS</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
-<p><strong>File:</strong> <code>LEDManager.cpp</code> — Lines ~86 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/LEDManager.cpp?ref_type=heads#L86">Source</a></p>
+<p><strong>File:</strong> <code>LEDManager.cpp</code> — Lines ~86 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/LEDManager.cpp?ref_type=heads#L86">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -850,7 +850,7 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="mini-mp3-dfplayer-player">Mini MP3 DFPlayer Player</h3>
-<p><strong>File:</strong> <code>DFPlayerManager.cpp</code> — Lines ~60 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/DFPlayerManager.cpp#L60">Source</a></p>
+<p><strong>File:</strong> <code>DFPlayerManager.cpp</code> — Lines ~60 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/DFPlayerManager.cpp#L60">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -879,7 +879,7 @@ The subscribed client (IPad or Browser) can receive real-time updates over the W
 <span class="w">  </span><span class="n">setVolume</span><span class="p">(</span><span class="n">currentVolume</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
-<p><strong>File:</strong> <code>DFPlayerManager.cpp</code> — Lines ~L117 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/DFPlayerManager.cpp#L117">Source</a></p>
+<p><strong>File:</strong> <code>DFPlayerManager.cpp</code> — Lines ~L117 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/DFPlayerManager.cpp#L117">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -910,8 +910,8 @@ If no credentials are stored, it launches a portal for configuration:</p>
 <li>Auto-reconnect to known networks</li>
 <li>Reboots if config times out</li>
 </ul>
-<p><strong>File:</strong> installation: <code>WiFiSetup.cpp</code> — Lines ~21 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/sensors/WiFiSetup.cpp?ref_type=heads#L21">Source</a></p>
-<p><strong>File:</strong> sensors: <code>WiFiSetup.cpp</code> — Lines ~21 <a href="https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-2/individual-project/naawiigaaxaa17/-/blob/main/embedded/final/installation/WiFiSetup.cpp?ref_type=heads#L21">Source</a></p>
+<p><strong>File:</strong> installation: <code>WiFiSetup.cpp</code> — Lines ~21 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/sensors/WiFiSetup.cpp?ref_type=heads#L21">Source</a></p>
+<p><strong>File:</strong> sensors: <code>WiFiSetup.cpp</code> — Lines ~21 <a href="https://github.com/YanisDeplazes/atmos/tree/main/embedded/final/installation/WiFiSetup.cpp?ref_type=heads#L21">Source</a></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
